@@ -51,6 +51,48 @@ def fetch_repo_topics(owner: str, repo: str) -> List[str]:
     except:
         return []
 
+def generate_chinese_summary(title: str, description: str, topics: list) -> str:
+    """生成中文简介"""
+    # 根据关键词生成简单总结
+    desc_lower = (description or "").lower()
+    name_lower = title.lower()
+    
+    # 判断项目类型
+    if any(kw in desc_lower or kw in name_lower for kw in ["ai", "llm", "gpt", "claude", "agent", "machine learning", "deep learning"]):
+        category = "AI/机器学习"
+    elif any(kw in desc_lower for kw in ["web", "flask", "django", "fastapi", "server"]):
+        category = "Web开发"
+    elif any(kw in desc_lower for kw in ["data", "pandas", "numpy", "analysis", "visualization"]):
+        category = "数据分析"
+    elif any(kw in desc_lower for kw in ["automation", "bot", "scraping", "crawler"]):
+        category = "自动化工具"
+    elif any(kw in desc_lower for kw in ["cli", "command", "terminal", "tool"]):
+        category = "命令行工具"
+    elif any(kw in desc_lower for kw in ["game", "gaming"]):
+        category = "游戏开发"
+    else:
+        category = "开发工具"
+    
+    # 提取核心功能
+    if "framework" in desc_lower:
+        function = "提供开发框架"
+    elif "library" in desc_lower or "package" in desc_lower:
+        function = "提供功能库"
+    elif "tool" in desc_lower or "utility" in desc_lower:
+        function = "提供实用工具"
+    elif "platform" in desc_lower:
+        function = "提供平台服务"
+    else:
+        function = "解决特定场景需求"
+    
+    # 生成简介
+    summary = f"【{category}】{function}"
+    
+    if topics:
+        summary += f"，主要涉及 {', '.join(topics[:3])} 等技术"
+    
+    return summary
+
 def main():
     today = datetime.now().strftime("%Y-%m-%d")
     print(f"📅 今日日期: {today}")
@@ -77,12 +119,17 @@ def main():
         # 获取 topics
         topics = fetch_repo_topics(owner, name)
         
+        # 生成中文简介
+        raw_desc = repo.get("description", "") or "暂无描述"
+        chinese_summary = generate_chinese_summary(name, raw_desc, topics)
+        
         entry = {
             "rank": i,
             "date": today,
             "title": f"{owner} / {name}",
             "url": repo.get("html_url", ""),
-            "description": repo.get("description", "暂无描述") or "暂无描述",
+            "description": raw_desc,
+            "chinese_summary": chinese_summary,
             "stars": repo.get("stargazers_count", 0),
             "forks": repo.get("forks_count", 0),
             "language": repo.get("language", ""),
@@ -109,7 +156,7 @@ def main():
     print(f"\n🏆 今日 Top 5:")
     for p in raw_entries[:5]:
         print(f"   {p['rank']}. {p['title']} ⭐ {p['stars']}")
-        print(f"      {p['description'][:60]}...")
+        print(f"      {p['chinese_summary']}")
 
 if __name__ == "__main__":
     main()

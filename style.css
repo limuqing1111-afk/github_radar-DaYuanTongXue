@@ -1272,3 +1272,30 @@ select:hover, select:focus { border-color: var(--accent); }
   align-items: center;
   gap: 6px;
 }
+
+/* ===== CHINESE SUMMARY ===== */
+.raw-chinese-summary {
+  font-size: 14px;
+  color: var(--accent);
+  background: rgba(88, 166, 255, 0.1);
+  padding: 8px 12px;
+  border-radius: var(--radius);
+  margin-bottom: 8px;
+  border-left: 3px solid var(--accent);
+}
+
+/* ===== TOP 3 CARD STYLES (Original) ===== */
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.card-stars {
+  font-size: 13px;
+  color: var(--gold);
+  font-weight: 600;
+  flex-shrink: 0;
+}

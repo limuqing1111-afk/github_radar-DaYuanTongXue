@@ -124,6 +124,7 @@ function renderTop3(date) {
   const dates = [...new Set(allProjects.map(p => p.date))].sort().reverse();
   const targetDate = date || dates[0];
 
+  // 取当天 is_top 项目，不足则按分数补，最终按总分降序排列
   let tops = allProjects.filter(p => p.date === targetDate && p.is_top);
   if (tops.length < 3) {
     const others = allProjects
@@ -139,24 +140,60 @@ function renderTop3(date) {
     return;
   }
 
-  grid.innerHTML = tops.map((p, i) => `
-    <div class="top3-card rank-${i + 1}" onclick="openModal('${p.id}')">
-      <div class="top3-rank">${i + 1}</div>
-      <div class="top3-header">
-        <h3 class="top3-title">${escapeHtml(p.title)}</h3>
-        <div class="top3-stars">⭐ ${p.stars || 0}</div>
+  const medals = ['🥇', '🥈', '🥉'];
+  const rankClass = ['rank-1', 'rank-2', 'rank-3'];
+
+  grid.innerHTML = tops.map((p, i) => {
+    const s = p.scores;
+    return `
+    <div class="top3-card ${rankClass[i]}" onclick="openModal('${p.id}')">
+      <div class="card-rank-badge">${medals[i]}</div>
+      <div class="card-header">
+        <div class="card-title">
+          <a href="${p.url}" target="_blank" onclick="event.stopPropagation()">${p.title}</a>
+        </div>
+        <div class="card-stars">⭐ ${p.stars || 0}</div>
       </div>
-      <p class="top3-desc">${escapeHtml(p.description)}</p>
-      <div class="top3-metaphor">💡 ${escapeHtml(p.metaphor)}</div>
-      <div class="top3-scores">
-        <span class="score-total">${p.scores.total}分</span>
-        <span class="score-item" title="Vibecoding难度">⚡${p.scores.vibecoding_ease}</span>
-        <span class="score-item" title="护城河">🛡️${p.scores.logic_moat}</span>
-        <span class="score-item" title="赛道匹配">🎯${p.scores.track_fit}</span>
-        <span class="score-item" title="增长潜力">📈${p.scores.growth_potential}</span>
+      <div class="card-description">${p.description}</div>
+      <div class="card-scores">
+        <div class="score-item">
+          <span class="score-label">Vibecoding</span>
+          <div class="score-bar-wrap">
+            <div class="score-bar"><div class="score-bar-fill vibe" style="width:${(s.vibecoding_ease/3)*100}%"></div></div>
+            <span class="score-val">${s.vibecoding_ease}/3</span>
+          </div>
+        </div>
+        <div class="score-item">
+          <span class="score-label">逻辑护城河</span>
+          <div class="score-bar-wrap">
+            <div class="score-bar"><div class="score-bar-fill moat" style="width:${(s.logic_moat/3)*100}%"></div></div>
+            <span class="score-val">${s.logic_moat}/3</span>
+          </div>
+        </div>
+        <div class="score-item">
+          <span class="score-label">赛道契合</span>
+          <div class="score-bar-wrap">
+            <div class="score-bar"><div class="score-bar-fill track" style="width:${(s.track_fit/2)*100}%"></div></div>
+            <span class="score-val">${s.track_fit}/2</span>
+          </div>
+        </div>
+        <div class="score-item">
+          <span class="score-label">增长潜力</span>
+          <div class="score-bar-wrap">
+            <div class="score-bar"><div class="score-bar-fill growth" style="width:${(s.growth_potential/2)*100}%"></div></div>
+            <span class="score-val">${s.growth_potential}/2</span>
+          </div>
+        </div>
       </div>
-    </div>
-  `).join('');
+      <div class="card-footer">
+        <div class="total-score">
+          <span class="num">${s.total}</span>
+          <span class="denom">/12</span>
+        </div>
+        <span class="card-date">${p.date}</span>
+      </div>
+    </div>`;
+  }).join('');
 }
 
 // ===== 渲染历史列表 =====
@@ -272,6 +309,7 @@ function renderRawList() {
             ${p.language ? `<span class="raw-lang">📦 ${p.language}</span>` : ''}
           </div>
         </div>
+        <div class="raw-chinese-summary">${escapeHtml(p.chinese_summary || '')}</div>
         <p class="raw-desc">${escapeHtml(p.description)}</p>
         ${p.topics && p.topics.length ? `
           <div class="raw-topics">
