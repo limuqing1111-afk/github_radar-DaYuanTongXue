@@ -1727,3 +1727,42 @@ body.modal-open {
 .modal-content {
   padding: 0;
 }
+
+/* ===== SORTABLE HEADERS ===== */
+th.sortable {
+  cursor: pointer;
+  position: relative;
+  user-select: none;
+  transition: all 0.2s ease;
+}
+
+th.sortable:hover {
+  background: var(--bg-card-hover);
+}
+
+th.sortable.active {
+  color: var(--accent);
+  font-weight: 600;
+}
+
+th.sortable.active::after {
+  content: '';
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 0;
+  height: 0;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+}
+
+th.sortable.active.desc::after {
+  border-top: 5px solid var(--accent);
+  border-bottom: none;
+}
+
+th.sortable.active.asc::after {
+  border-bottom: 5px solid var(--accent);
+  border-top: none;
+}

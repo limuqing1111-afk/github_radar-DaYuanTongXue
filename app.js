@@ -283,7 +283,7 @@ function renderHistory() {
           <div class="project-desc">${escapeHtml(p.description).substring(0, 60)}...</div>
         </td>
         <td class="col-date">${p.date}</td>
-        <td class="col-stars">⭐ ${p.stars || 0}</td>
+        <td class="col-stars">⭐ ${p.stars !== undefined ? p.stars : '-'}</td>
         <td class="col-score total">${p.scores.total}</td>
         <td class="col-score">${p.scores.vibecoding_ease}</td>
         <td class="col-score">${p.scores.logic_moat}</td>
@@ -550,6 +550,16 @@ function closeModal() {
   document.body.classList.remove('modal-open');
 }
 
+// ===== 更新表头排序样式 =====
+function updateSortHeaders() {
+  document.querySelectorAll('.sortable').forEach(th => {
+    th.classList.remove('active', 'asc', 'desc');
+    if (th.dataset.sort === currentSort.key) {
+      th.classList.add('active', currentSort.dir);
+    }
+  });
+}
+
 // ===== 绑定事件 =====
 function bindEvents() {
   // 搜索
@@ -575,6 +585,7 @@ function bindEvents() {
       } else {
         currentSort = { key, dir: 'desc' };
       }
+      updateSortHeaders();
       renderHistory();
     });
   });
