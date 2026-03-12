@@ -353,45 +353,75 @@ function openRawModal(rank) {
 
   const content = document.getElementById('modal-content');
   content.innerHTML = `
-    <div class="modal-header">
-      <h2>${escapeHtml(p.title)}</h2>
-      <div class="modal-stars">⭐ ${p.stars} stars · 🍴 ${p.forks} forks</div>
-    </div>
-    <div class="modal-date">📅 ${p.date} · Rank #${p.rank}</div>
-    
-    <div class="modal-section">
-      <h4 class="modal-section-title">📝 项目描述</h4>
-      <div class="modal-section-content">${escapeHtml(p.detailed_description || p.description).replace(/\n/g, '<br>')}</div>
-    </div>
-    
-    <div class="modal-section">
-      <h4 class="modal-section-title">🎯 使用场景</h4>
-      <div class="modal-section-content">${escapeHtml(p.usage || '适合有特定需求的开发者使用')}</div>
-    </div>
-    
-    <div class="modal-section metaphor-section">
-      <h4 class="modal-section-title">💡 通俗理解</h4>
-      <div class="modal-section-content">${escapeHtml(p.metaphor || '一个实用的开源项目')}</div>
-    </div>
-    
-    ${p.topics && p.topics.length ? `
-    <div class="modal-section">
-      <h4 class="modal-section-title">🏷️ 相关标签</h4>
-      <div class="modal-section-content">
-        <div class="raw-topics">
-          ${p.topics.map(t => `<span class="topic-tag">${escapeHtml(t)}</span>`).join('')}
-        </div>
+    <div class="modal-header-compact">
+      <a href="${p.url}" target="_blank" class="modal-title-link">
+        <h2>${escapeHtml(p.title)} ↗</h2>
+      </a>
+      <div class="modal-meta">
+        <span class="modal-stars">⭐ ${p.stars || 0}</span>
+        <span class="modal-forks">🍴 ${p.forks || 0}</span>
+        <span class="modal-date">📅 ${p.date}</span>
+        <span class="modal-rank">Rank #${p.rank}</span>
       </div>
     </div>
-    ` : ''}
-    
-    <div class="modal-actions">
-      <a href="${p.url}" target="_blank" class="btn-primary">🔗 访问 GitHub</a>
-      ${p.homepage ? `<a href="${p.homepage}" target="_blank" class="btn-outline">🌐 项目主页</a>` : ''}
+
+    <div class="modal-body-two-col">
+      <!-- 左栏：描述信息 -->
+      <div class="modal-col-left">
+        <div class="modal-block">
+          <h4>📝 项目描述</h4>
+          <p>${escapeHtml(p.detailed_description || '这是一个实用的开源项目')}</p>
+        </div>
+
+        <div class="modal-block metaphor">
+          <h4>💡 通俗理解</h4>
+          <p>${escapeHtml(p.metaphor || '一个可以帮助你提高效率的工具')}</p>
+        </div>
+
+        <div class="modal-block">
+          <h4>🎯 使用场景</h4>
+          <p>${escapeHtml(p.usage || '适合有特定需求的开发者使用')}</p>
+        </div>
+      </div>
+
+      <!-- 右栏：项目信息 -->
+      <div class="modal-col-right">
+        <h4>📊 项目信息</h4>
+        <div class="info-list">
+          <div class="info-item">
+            <span class="info-label">语言</span>
+            <span class="info-value">${p.language || 'Python'}</span>
+          </div>
+          <div class="info-item">
+            <span class="info-label">Stars</span>
+            <span class="info-value">${p.stars || 0}</span>
+          </div>
+          <div class="info-item">
+            <span class="info-label">Forks</span>
+            <span class="info-value">${p.forks || 0}</span>
+          </div>
+          ${p.stars_growth !== undefined ? `
+          <div class="info-item">
+            <span class="info-label">今日新增</span>
+            <span class="info-value growth">+${p.stars_growth}</span>
+          </div>
+          ` : ''}
+        </div>
+        
+        ${p.topics && p.topics.length ? `
+        <div class="topics-section">
+          <h4>🏷️ 相关标签</h4>
+          <div class="raw-topics">
+            ${p.topics.slice(0, 8).map(t => `<span class="topic-tag">${escapeHtml(t)}</span>`).join('')}
+          </div>
+        </div>
+        ` : ''}
+      </div>
     </div>
   `;
-  
+
   document.getElementById('modal-overlay').classList.add('open');
+  document.body.classList.add('modal-open');
 }
 
 // ===== 渲染分页控件 =====
