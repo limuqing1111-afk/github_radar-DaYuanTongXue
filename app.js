@@ -435,7 +435,7 @@ function renderPagination(totalPages, currentPage, containerId, onPageChange) {
   let html = '<div class="pagination-inner">';
   
   // 上一页
-  html += `<button class="page-btn" ${currentPage === 1 ? 'disabled' : ''} onclick="${onPageChange.name}(${currentPage - 1})">上一页</button>`;
+  html += `<button class="page-btn prev-btn" ${currentPage === 1 ? 'disabled' : ''} data-page="${currentPage - 1}">上一页</button>`;
   
   // 页码
   const maxVisible = 5;
@@ -447,29 +447,30 @@ function renderPagination(totalPages, currentPage, containerId, onPageChange) {
   }
   
   if (startPage > 1) {
-    html += `<button class="page-btn" onclick="${onPageChange.name}(1)">1</button>`;
+    html += `<button class="page-btn" data-page="1">1</button>`;
     if (startPage > 2) html += `<span class="page-ellipsis">...</span>`;
   }
   
   for (let i = startPage; i <= endPage; i++) {
-    html += `<button class="page-btn ${i === currentPage ? 'active' : ''}" onclick="${onPageChange.name}(${i})">${i}</button>`;
+    html += `<button class="page-btn ${i === currentPage ? 'active' : ''}" data-page="${i}">${i}</button>`;
   }
   
   if (endPage < totalPages) {
     if (endPage < totalPages - 1) html += `<span class="page-ellipsis">...</span>`;
-    html += `<button class="page-btn" onclick="${onPageChange.name}(${totalPages})">${totalPages}</button>`;
+    html += `<button class="page-btn" data-page="${totalPages}">${totalPages}</button>`;
   }
   
   // 下一页
-  html += `<button class="page-btn" ${currentPage === totalPages ? 'disabled' : ''} onclick="${onPageChange.name}(${currentPage + 1})">下一页</button>`;
+  html += `<button class="page-btn next-btn" ${currentPage === totalPages ? 'disabled' : ''} data-page="${currentPage + 1}">下一页</button>`;
   
   html += '</div>';
   
-  // 使用事件委托
   container.innerHTML = html;
+  
+  // 绑定点击事件
   container.querySelectorAll('.page-btn:not([disabled])').forEach(btn => {
     btn.addEventListener('click', (e) => {
-      const page = parseInt(e.target.textContent);
+      const page = parseInt(e.target.dataset.page);
       if (!isNaN(page)) {
         onPageChange(page);
       }
