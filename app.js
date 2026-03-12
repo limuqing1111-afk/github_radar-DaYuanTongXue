@@ -208,7 +208,7 @@ function renderTop3(date) {
       <div class="card-footer">
         <div class="total-score">
           <span class="num">${s.total}</span>
-          <span class="denom">/12</span>
+          <span class="denom">/10</span>
         </div>
         <span class="card-date">${p.date}</span>
       </div>
@@ -351,14 +351,14 @@ function renderRawList() {
 function openRawModal(rank) {
   const p = rawProjects.find(x => x.rank === rank);
   if (!p) return;
-  
+
   const content = document.getElementById('modal-content');
   content.innerHTML = `
     <div class="modal-header">
       <h2>${escapeHtml(p.title)}</h2>
       <div class="modal-stars">⭐ ${p.stars} stars · 🍴 ${p.forks} forks</div>
     </div>
-    <div class="modal-date">📅 ${p.date} · 📦 ${p.language || 'Unknown'}</div>
+    <div class="modal-date">📅 ${p.date} · Rank #${p.rank}</div>
     
     <div class="modal-section">
       <h4 class="modal-section-title">📝 项目描述</h4>
@@ -493,10 +493,10 @@ function openModal(projectId) {
         <div class="modal-score-item">
           <div class="modal-score-header">
             <span class="modal-score-name">逻辑护城河</span>
-            <span class="modal-score-value">${s.logic_moat}/2</span>
+            <span class="modal-score-value">${s.logic_moat}/3</span>
           </div>
           <div class="modal-score-bar-wrap">
-            <div class="modal-score-bar"><div class="modal-score-fill moat" style="width:${(s.logic_moat/2)*100}%"></div></div>
+            <div class="modal-score-bar"><div class="modal-score-fill moat" style="width:${(s.logic_moat/3)*100}%"></div></div>
           </div>
           <p class="modal-score-reason">${escapeHtml(p.score_reasons.logic_moat)}</p>
         </div>
@@ -524,7 +524,7 @@ function openModal(projectId) {
       <div class="modal-total-score">
         <span class="total-label">总分</span>
         <span class="total-value">${s.total}</span>
-        <span class="total-denom">/12</span>
+        <span class="total-denom">/10</span>
       </div>
     </div>
     

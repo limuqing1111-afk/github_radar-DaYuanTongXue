@@ -153,31 +153,71 @@ def analyze_with_ai(repo_data: Dict, readme: str) -> Dict:
     
     # 其他维度评分
     desc_lower = description.lower()
+    name_lower = name.lower()
     
-    # Vibecoding Ease (1-3)
-    if any(kw in desc_lower for kw in ["simple", "easy", "lightweight"]):
+    # ===== Vibecoding Ease (1-3分) =====
+    # 3分: 纯提示词工程、简单脚本、一日可复刻
+    # 2分: 需要理解架构、中等复杂度
+    # 1分: 涉及底层系统、框架级项目
+    simple_keywords = ["simple", "easy", "lightweight", "prompt", "script", "wrapper"]
+    complex_keywords = ["framework", "sdk", "engine", "kernel", "compiler"]
+    
+    if any(kw in desc_lower or kw in name_lower for kw in simple_keywords):
         vibecoding_ease = 3
-    elif any(kw in desc_lower for kw in ["framework", "sdk"]):
+        vibe_reason = "纯提示词/简单脚本，一日内可复刻 MVP"
+    elif any(kw in desc_lower or kw in name_lower for kw in complex_keywords):
         vibecoding_ease = 1
+        vibe_reason = "涉及底层系统/框架，需要深度技术理解"
     else:
         vibecoding_ease = 2
+        vibe_reason = "中等复杂度，需理解架构设计"
     
-    # Logic Moat (0-2)
-    if any(kw in desc_lower for kw in ["algorithm", "model", "unique"]):
+    # ===== Logic Moat (0-3分) =====
+    # 3分: 独特算法、专利、深度业务逻辑、技术壁垒高
+    # 2分: 有一定设计深度、特定领域知识
+    # 1分: 常规实现、常见模式
+    # 0分: 简单 API 封装、wrapper
+    
+    unique_algo = any(kw in desc_lower for kw in ["algorithm", "patent", "proprietary", "novel", "unique approach"])
+    deep_logic = any(kw in desc_lower for kw in ["orchestration", "workflow", "pipeline", "architecture"])
+    just_wrapper = any(kw in desc_lower for kw in ["wrapper", "client for", "api wrapper", "unofficial"])
+    
+    if unique_algo:
+        logic_moat = 3
+        moat_reason = "独特算法或技术方案，具备较高技术壁垒"
+    elif deep_logic:
         logic_moat = 2
-    elif "api" in desc_lower:
+        moat_reason = "有特定的业务逻辑设计，需理解领域知识"
+    elif just_wrapper or "api" in desc_lower:
         logic_moat = 0
+        moat_reason = "简单 API 封装或客户端，技术门槛低"
     else:
         logic_moat = 1
+        moat_reason = "常规实现，属于常见技术方案"
     
-    # Growth Potential (0-2)
-    if any(kw in desc_lower for kw in ["automation", "passive income", "赚钱"]):
+    # ===== Growth Potential (0-2分) =====
+    # 2分: 直接变现场景、热点赛道、易传播
+    # 1分: 有一定需求、垂直领域
+    # 0分: 工具属性弱、偏基础设施
+    
+    direct_money = any(kw in desc_lower for kw in ["automation", "passive income", "trading", "arbitrage", "money"])
+    hot_trend = any(kw in desc_lower or kw in name_lower for kw in ["ai", "agent", "llm", "gpt", "claude"])
+    infra_tool = any(kw in desc_lower for kw in ["library", "framework", "sdk", "toolkit", "utils"])
+    
+    if direct_money:
         growth_potential = 2
-    elif any(kw in desc_lower for kw in ["ai", "agent", "llm", "gpt"]):
+        growth_reason = "具备直接变现场景或自动化赚钱能力"
+    elif hot_trend:
         growth_potential = 2
+        growth_reason = "处于 AI/Agent 热点赛道，易获得关注"
+    elif infra_tool:
+        growth_potential = 0
+        growth_reason = "基础设施类工具，传播和变现潜力有限"
     else:
         growth_potential = 1
+        growth_reason = "有一定市场需求，可垂直领域变现"
     
+    # ===== 计算总分 (满分10分) =====
     scores = {
         "vibecoding_ease": vibecoding_ease,
         "logic_moat": logic_moat,
@@ -185,7 +225,7 @@ def analyze_with_ai(repo_data: Dict, readme: str) -> Dict:
         "growth_potential": growth_potential
     }
     
-    total = sum(scores.values())
+    total = sum(scores.values())  # 满分 3+3+2+2 = 10
     
     # 生成详细描述、比喻和使用场景
     detailed_desc, metaphor, usage = generate_detailed_description(repo_data, readme)
@@ -204,10 +244,10 @@ def analyze_with_ai(repo_data: Dict, readme: str) -> Dict:
             "total": total
         },
         "score_reasons": {
-            "vibecoding_ease": "纯提示词/简单逻辑可复刻" if vibecoding_ease == 3 else ("需要一定架构理解" if vibecoding_ease == 2 else "底层系统复杂，难复刻"),
-            "logic_moat": "有独特算法或深度业务逻辑" if logic_moat == 2 else ("有一定设计深度" if logic_moat == 1 else "简单 API 串联"),
+            "vibecoding_ease": vibe_reason,
+            "logic_moat": moat_reason,
             "track_fit": track_fit_reason,
-            "growth_potential": "热点赛道，易传播变现" if growth_potential == 2 else "有一定传播潜力",
+            "growth_potential": growth_reason,
             "usage": usage
         }
     }
