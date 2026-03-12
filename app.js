@@ -84,19 +84,18 @@ function updateStats() {
   const latestDate = dates[0];
   const todayProjects = allProjects.filter(p => p.date === latestDate);
 
-  document.getElementById('stat-total').textContent = allProjects.length;
-  document.getElementById('stat-today').textContent = todayProjects.length;
-  document.getElementById('stat-days').textContent = dates.length;
-  
+  const total = allProjects.length;
+  const today = todayProjects.length;
+  const days = dates.length;
   const avg = todayProjects.length
     ? (todayProjects.reduce((s, p) => s + p.scores.total, 0) / todayProjects.length).toFixed(1)
     : '—';
-  document.getElementById('stat-avg').textContent = avg;
-  
-  const topScore = todayProjects.length
-    ? Math.max(...todayProjects.map(p => p.scores.total))
-    : '—';
-  document.getElementById('stat-top-score').textContent = topScore;
+
+  // 更新导航栏统计
+  document.getElementById('nav-stat-total').textContent = total;
+  document.getElementById('nav-stat-today').textContent = today;
+  document.getElementById('nav-stat-days').textContent = days;
+  document.getElementById('nav-stat-avg').textContent = avg;
 }
 
 // ===== 更新最后更新时间 =====
@@ -464,7 +463,9 @@ function openModal(projectId) {
 
   content.innerHTML = `
     <div class="modal-header-compact">
-      <h2>${escapeHtml(p.title)}</h2>
+      <a href="${p.url}" target="_blank" class="modal-title-link">
+        <h2>${escapeHtml(p.title)} ↗</h2>
+      </a>
       <div class="modal-meta">
         <span class="modal-stars">⭐ ${p.stars || 0}</span>
         <span class="modal-date">📅 ${p.date}</span>
@@ -535,9 +536,6 @@ function openModal(projectId) {
       </div>
     </div>
 
-    <div class="modal-actions-compact">
-      <a href="${p.url}" target="_blank" class="btn-primary">🔗 访问 GitHub</a>
-    </div>
   `;
 
   document.getElementById('modal-overlay').classList.add('open');
