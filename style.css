@@ -1633,21 +1633,22 @@ body.modal-open {
 .scores-vertical-list {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 10px;
   flex: 1;
   overflow: hidden;
 }
 
 .score-row {
   background: var(--bg-card);
-  padding: 12px 14px;
+  padding: 10px 14px;
   border-radius: 8px;
   border: 1px solid var(--border);
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   min-height: 0;
+  overflow: hidden;
 }
 
 .score-row-header {
@@ -1695,12 +1696,9 @@ body.modal-open {
   font-size: 11px;
   color: var(--text-secondary);
   margin: 0;
-  line-height: 1.4;
+  line-height: 1.3;
+  max-height: 2.6em;
   overflow: hidden;
-  text-overflow: ellipsis;
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
 }
 
 /* Compact actions */
