@@ -51,27 +51,40 @@ def fetch_repo_topics(owner: str, repo: str) -> List[str]:
     except:
         return []
 
-def generate_chinese_summary(title: str, description: str, topics: list) -> str:
-    """生成中文简介"""
-    # 根据关键词生成简单总结
+def generate_chinese_summary(title: str, description: str, topics: list, readme: str = "") -> dict:
+    """生成详细的中文简介和比喻"""
     desc_lower = (description or "").lower()
     name_lower = title.lower()
     
     # 判断项目类型
     if any(kw in desc_lower or kw in name_lower for kw in ["ai", "llm", "gpt", "claude", "agent", "machine learning", "deep learning"]):
         category = "AI/机器学习"
+        metaphor = f"💡 它就像你的「智能助手」——{description or '能够理解和处理复杂任务，让繁琐的工作变得简单高效'}"
+        usage = "适合想用 AI 提升效率的开发者，或者想快速搭建智能应用的创业者"
     elif any(kw in desc_lower for kw in ["web", "flask", "django", "fastapi", "server"]):
         category = "Web开发"
+        metaphor = f"💡 它就像「乐高积木」——{description or '提供标准化的模块，让你快速搭建自己想要的网站'}"
+        usage = "适合想快速搭建网站、API 服务的开发者"
     elif any(kw in desc_lower for kw in ["data", "pandas", "numpy", "analysis", "visualization"]):
         category = "数据分析"
-    elif any(kw in desc_lower for kw in ["automation", "bot", "scraping", "crawler"]):
+        metaphor = f"💡 它就像「数据翻译官」——{description or '把晦涩难懂的原始数据，转化成一目了然的图表和结论'}"
+        usage = "适合需要处理数据、做数据分析的人，比如运营、产品经理"
+    elif any(kw in desc_lower for kw in ["automation", "bot", "scraping", "crawler", "schedule"]):
         category = "自动化工具"
-    elif any(kw in desc_lower for kw in ["cli", "command", "terminal", "tool"]):
+        metaphor = f"💡 它就像「自动洗衣机」——{description or '你把任务丢进去，它就自动帮你搞定，不用你盯着'}"
+        usage = "适合想节省时间、让电脑帮你干活的人，处理重复性任务"
+    elif any(kw in desc_lower for kw in ["cli", "command", "terminal", "shell", "tool"]):
         category = "命令行工具"
+        metaphor = f"💡 它就像「瑞士军刀」——{description or '小巧但功能强大，程序员必备的工具箱'}"
+        usage = "适合程序员和开发者，喜欢用命令行提高效率的人"
     elif any(kw in desc_lower for kw in ["game", "gaming"]):
         category = "游戏开发"
+        metaphor = f"💡 它就像「游戏引擎」——{description or '提供基础框架，让你专注于创造游戏内容'}"
+        usage = "适合游戏开发者和想制作游戏的人"
     else:
         category = "开发工具"
+        metaphor = f"💡 它就像「万能扳手」——{description or '虽然不是最耀眼的工具，但能帮你解决很多实际问题'}"
+        usage = "适合有特定需求的开发者，可以灵活使用"
     
     # 提取核心功能
     if "framework" in desc_lower:
@@ -91,7 +104,21 @@ def generate_chinese_summary(title: str, description: str, topics: list) -> str:
     if topics:
         summary += f"，主要涉及 {', '.join(topics[:3])} 等技术"
     
-    return summary
+    # 详细描述
+    detailed_description = f"这是一个 {category} 类型的开源项目。"
+    if description:
+        detailed_description += f"\n\n简单来说，它{description}。"
+    
+    detailed_description += f"\n\n{metaphor}"
+    detailed_description += f"\n\n🎯 适合谁用：{usage}。"
+    
+    return {
+        "summary": summary,
+        "metaphor": metaphor,
+        "detailed_description": detailed_description,
+        "category": category,
+        "usage": usage
+    }
 
 def main():
     today = datetime.now().strftime("%Y-%m-%d")
@@ -119,9 +146,9 @@ def main():
         # 获取 topics
         topics = fetch_repo_topics(owner, name)
         
-        # 生成中文简介
+        # 生成中文简介（详细版）
         raw_desc = repo.get("description", "") or "暂无描述"
-        chinese_summary = generate_chinese_summary(name, raw_desc, topics)
+        analysis = generate_chinese_summary(name, raw_desc, topics)
         
         entry = {
             "rank": i,
@@ -129,7 +156,11 @@ def main():
             "title": f"{owner} / {name}",
             "url": repo.get("html_url", ""),
             "description": raw_desc,
-            "chinese_summary": chinese_summary,
+            "chinese_summary": analysis["summary"],
+            "detailed_description": analysis["detailed_description"],
+            "metaphor": analysis["metaphor"],
+            "category": analysis["category"],
+            "usage": analysis["usage"],
             "stars": repo.get("stargazers_count", 0),
             "forks": repo.get("forks_count", 0),
             "language": repo.get("language", ""),

@@ -296,12 +296,12 @@ function renderRawList() {
   const pageItems = rawProjects.slice(start, start + RAW_PAGE_SIZE);
   
   container.innerHTML = pageItems.map(p => `
-    <div class="raw-item">
+    <div class="raw-item" onclick="openRawModal(${p.rank})">
       <div class="raw-rank">#${p.rank}</div>
       <div class="raw-content">
         <div class="raw-header">
           <h3 class="raw-title">
-            <a href="${p.url}" target="_blank">${escapeHtml(p.title)}</a>
+            <a href="${p.url}" target="_blank" onclick="event.stopPropagation()">${escapeHtml(p.title)}</a>
           </h3>
           <div class="raw-stats">
             <span class="raw-stars">⭐ ${p.stars}</span>
@@ -316,6 +316,7 @@ function renderRawList() {
             ${p.topics.map(t => `<span class="topic-tag">${escapeHtml(t)}</span>`).join('')}
           </div>
         ` : ''}
+        <div class="raw-click-hint">👆 点击查看详情</div>
       </div>
     </div>
   `).join('');
@@ -325,6 +326,60 @@ function renderRawList() {
     rawCurrentPageNum = page;
     renderRawList();
   });
+}
+
+// ===== 打开原始榜单详情弹窗 =====
+function openRawModal(rank) {
+  const p = rawProjects.find(x => x.rank === rank);
+  if (!p) return;
+  
+  const content = document.getElementById('modal-content');
+  content.innerHTML = `
+    <div class="modal-header">
+      <h2>${escapeHtml(p.title)}</h2>
+      <div class="modal-stars">⭐ ${p.stars} stars · 🍴 ${p.forks} forks</div>
+    </div>
+    <div class="modal-date">📅 ${p.date} · 📦 ${p.language || 'Unknown'}</div>
+    
+    <div class="modal-category" style="margin: 16px 0; padding: 8px 16px; background: var(--accent-bg); border-radius: var(--radius); color: var(--accent); font-weight: 500;">
+      ${escapeHtml(p.category || '开发工具')}
+    </div>
+    
+    <div class="modal-desc">
+      <h4>📝 项目介绍</h4>
+      <p style="white-space: pre-line;">${escapeHtml(p.detailed_description || p.description)}</p>
+    </div>
+    
+    ${p.metaphor ? `
+    <div class="modal-metaphor" style="background: var(--gold-bg); padding: 16px; border-radius: var(--radius); margin: 16px 0; border-left: 4px solid var(--gold);">
+      <h4 style="color: var(--gold); margin-bottom: 8px;">💡 通俗理解</h4>
+      <p style="color: var(--text-primary); margin: 0;">${escapeHtml(p.metaphor)}</p>
+    </div>
+    ` : ''}
+    
+    ${p.usage ? `
+    <div class="modal-usage" style="margin: 16px 0;">
+      <h4>🎯 适合谁用</h4>
+      <p>${escapeHtml(p.usage)}</p>
+    </div>
+    ` : ''}
+    
+    ${p.topics && p.topics.length ? `
+    <div class="modal-topics" style="margin: 16px 0;">
+      <h4>🏷️ 相关标签</h4>
+      <div class="raw-topics" style="margin-top: 8px;">
+        ${p.topics.map(t => `<span class="topic-tag">${escapeHtml(t)}</span>`).join('')}
+      </div>
+    </div>
+    ` : ''}
+    
+    <div class="modal-actions">
+      <a href="${p.url}" target="_blank" class="btn-primary">🔗 访问 GitHub</a>
+      ${p.homepage ? `<a href="${p.homepage}" target="_blank" class="btn-outline">🌐 项目主页</a>` : ''}
+    </div>
+  `;
+  
+  document.getElementById('modal-overlay').classList.add('active');
 }
 
 // ===== 渲染分页控件 =====

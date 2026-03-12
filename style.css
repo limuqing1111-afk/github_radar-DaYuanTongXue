@@ -1299,3 +1299,63 @@ select:hover, select:focus { border-color: var(--accent); }
   font-weight: 600;
   flex-shrink: 0;
 }
+
+/* ===== RAW LIST CLICK HINT ===== */
+.raw-click-hint {
+  font-size: 12px;
+  color: var(--text-muted);
+  text-align: center;
+  margin-top: 12px;
+  padding-top: 8px;
+  border-top: 1px dashed var(--border);
+  opacity: 0.7;
+  transition: opacity var(--transition);
+}
+
+.raw-item:hover .raw-click-hint {
+  opacity: 1;
+  color: var(--accent);
+}
+
+.raw-item {
+  cursor: pointer;
+}
+
+/* ===== MODAL ENHANCEMENTS ===== */
+.modal-category {
+  display: inline-block;
+}
+
+.modal-usage h4,
+.modal-topics h4 {
+  color: var(--text-secondary);
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.modal-usage p {
+  color: var(--text-primary);
+  line-height: 1.6;
+}
+
+/* Make raw items more clickable */
+.raw-item {
+  position: relative;
+  transition: all 0.2s ease;
+}
+
+.raw-item::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: var(--radius);
+  pointer-events: none;
+  transition: box-shadow 0.2s ease;
+}
+
+.raw-item:hover::after {
+  box-shadow: 0 0 0 2px var(--accent);
+}
