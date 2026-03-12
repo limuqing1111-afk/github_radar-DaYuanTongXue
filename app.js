@@ -379,7 +379,7 @@ function openRawModal(rank) {
     </div>
   `;
   
-  document.getElementById('modal-overlay').classList.add('active');
+  document.getElementById('modal-overlay').classList.add('open');
 }
 
 // ===== 渲染分页控件 =====
@@ -489,12 +489,12 @@ function openModal(projectId) {
     </div>
   `;
   
-  document.getElementById('modal-overlay').classList.add('active');
+  document.getElementById('modal-overlay').classList.add('open');
 }
 
 // ===== 关闭弹窗 =====
 function closeModal() {
-  document.getElementById('modal-overlay').classList.remove('active');
+  document.getElementById('modal-overlay').classList.remove('open');
 }
 
 // ===== 绑定事件 =====
