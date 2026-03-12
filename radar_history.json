@@ -1399,10 +1399,11 @@
       "vibecoding_ease": "需要一定架构理解",
       "logic_moat": "有一定设计深度",
       "track_fit": "未直接命中宠物/银发/玄学/金融/教育五大变现赛道",
-      "growth_potential": "热点赛道，易传播变现"
+      "growth_potential": "热点赛道，易传播变现",
+      "usage": "适合想用 AI 提升效率的开发者，或者想快速搭建智能应用的创业者。"
     },
-    "stars": 26947,
-    "forks": 3487,
+    "stars": 27020,
+    "forks": 3496,
     "language": "Python"
   },
   {
@@ -1425,10 +1426,11 @@
       "vibecoding_ease": "需要一定架构理解",
       "logic_moat": "有一定设计深度",
       "track_fit": "未直接命中宠物/银发/玄学/金融/教育五大变现赛道",
-      "growth_potential": "热点赛道，易传播变现"
+      "growth_potential": "热点赛道，易传播变现",
+      "usage": "适合想用 AI 提升效率的开发者，或者想快速搭建智能应用的创业者。"
     },
-    "stars": 6412,
-    "forks": 579,
+    "stars": 6508,
+    "forks": 591,
     "language": "Python"
   },
   {
@@ -1442,18 +1444,19 @@
     "scores": {
       "vibecoding_ease": 2,
       "logic_moat": 1,
-      "track_fit": 1,
+      "track_fit": 0,
       "growth_potential": 2,
-      "total": 6
+      "total": 5
     },
     "is_top": false,
     "score_reasons": {
       "vibecoding_ease": "需要一定架构理解",
       "logic_moat": "有一定设计深度",
-      "track_fit": "命中 1 个核心赛道：银发",
-      "growth_potential": "热点赛道，易传播变现"
+      "track_fit": "未直接命中宠物/银发/玄学/金融/教育五大变现赛道",
+      "growth_potential": "热点赛道，易传播变现",
+      "usage": "适合想用 AI 提升效率的开发者，或者想快速搭建智能应用的创业者。"
     },
-    "stars": 1026,
+    "stars": 1027,
     "forks": 123,
     "language": "Python"
   },
@@ -1468,19 +1471,20 @@
     "scores": {
       "vibecoding_ease": 2,
       "logic_moat": 0,
-      "track_fit": 2,
+      "track_fit": 0,
       "growth_potential": 1,
-      "total": 5
+      "total": 3
     },
     "is_top": false,
     "score_reasons": {
       "vibecoding_ease": "需要一定架构理解",
       "logic_moat": "简单 API 串联",
-      "track_fit": "命中 2 个核心赛道：宠物, 银发",
-      "growth_potential": "有一定传播潜力"
+      "track_fit": "未直接命中宠物/银发/玄学/金融/教育五大变现赛道",
+      "growth_potential": "有一定传播潜力",
+      "usage": "适合程序员和开发者，喜欢用命令行提高效率的人。"
     },
-    "stars": 709,
-    "forks": 66,
+    "stars": 712,
+    "forks": 67,
     "language": "Python"
   },
   {
@@ -1503,7 +1507,8 @@
       "vibecoding_ease": "需要一定架构理解",
       "logic_moat": "有一定设计深度",
       "track_fit": "未直接命中宠物/银发/玄学/金融/教育五大变现赛道",
-      "growth_potential": "有一定传播潜力"
+      "growth_potential": "有一定传播潜力",
+      "usage": "适合程序员和开发者，喜欢用命令行提高效率的人。"
     },
     "stars": 665,
     "forks": 34,
@@ -1520,18 +1525,19 @@
     "scores": {
       "vibecoding_ease": 2,
       "logic_moat": 0,
-      "track_fit": 1,
+      "track_fit": 0,
       "growth_potential": 1,
-      "total": 4
+      "total": 3
     },
     "is_top": false,
     "score_reasons": {
       "vibecoding_ease": "需要一定架构理解",
       "logic_moat": "简单 API 串联",
-      "track_fit": "命中 1 个核心赛道：宠物",
-      "growth_potential": "有一定传播潜力"
+      "track_fit": "未直接命中宠物/银发/玄学/金融/教育五大变现赛道",
+      "growth_potential": "有一定传播潜力",
+      "usage": "适合程序员和开发者，喜欢用命令行提高效率的人。"
     },
-    "stars": 636,
+    "stars": 639,
     "forks": 37,
     "language": "Python"
   },
@@ -1555,9 +1561,10 @@
       "vibecoding_ease": "需要一定架构理解",
       "logic_moat": "有一定设计深度",
       "track_fit": "未直接命中宠物/银发/玄学/金融/教育五大变现赛道",
-      "growth_potential": "热点赛道，易传播变现"
+      "growth_potential": "热点赛道，易传播变现",
+      "usage": "适合想用 AI 提升效率的开发者，或者想快速搭建智能应用的创业者。"
     },
-    "stars": 548,
+    "stars": 549,
     "forks": 93,
     "language": "Python"
   },
@@ -1581,9 +1588,10 @@
       "vibecoding_ease": "需要一定架构理解",
       "logic_moat": "有一定设计深度",
       "track_fit": "命中 1 个核心赛道：金融",
-      "growth_potential": "有一定传播潜力"
+      "growth_potential": "有一定传播潜力",
+      "usage": "适合想节省时间、让电脑帮你干活的人，特别是需要处理重复性任务的场景。"
     },
-    "stars": 546,
+    "stars": 547,
     "forks": 349,
     "language": "Python"
   },
@@ -1607,7 +1615,8 @@
       "vibecoding_ease": "需要一定架构理解",
       "logic_moat": "有一定设计深度",
       "track_fit": "未直接命中宠物/银发/玄学/金融/教育五大变现赛道",
-      "growth_potential": "热点赛道，易传播变现"
+      "growth_potential": "热点赛道，易传播变现",
+      "usage": "适合想用 AI 提升效率的开发者，或者想快速搭建智能应用的创业者。"
     },
     "stars": 445,
     "forks": 47,
@@ -1624,18 +1633,19 @@
     "scores": {
       "vibecoding_ease": 2,
       "logic_moat": 1,
-      "track_fit": 1,
+      "track_fit": 0,
       "growth_potential": 2,
-      "total": 6
+      "total": 5
     },
     "is_top": false,
     "score_reasons": {
       "vibecoding_ease": "需要一定架构理解",
       "logic_moat": "有一定设计深度",
-      "track_fit": "命中 1 个核心赛道：教育",
-      "growth_potential": "热点赛道，易传播变现"
+      "track_fit": "未直接命中宠物/银发/玄学/金融/教育五大变现赛道",
+      "growth_potential": "热点赛道，易传播变现",
+      "usage": "适合想用 AI 提升效率的开发者，或者想快速搭建智能应用的创业者。"
     },
-    "stars": 420,
+    "stars": 421,
     "forks": 38,
     "language": "Python"
   },
@@ -1659,10 +1669,11 @@
       "vibecoding_ease": "需要一定架构理解",
       "logic_moat": "有独特算法或深度业务逻辑",
       "track_fit": "未直接命中宠物/银发/玄学/金融/教育五大变现赛道",
-      "growth_potential": "有一定传播潜力"
+      "growth_potential": "有一定传播潜力",
+      "usage": "适合想用 AI 提升效率的开发者，或者想快速搭建智能应用的创业者。"
     },
-    "stars": 404,
-    "forks": 34,
+    "stars": 411,
+    "forks": 33,
     "language": "Python"
   },
   {
@@ -1676,16 +1687,17 @@
     "scores": {
       "vibecoding_ease": 2,
       "logic_moat": 1,
-      "track_fit": 1,
+      "track_fit": 0,
       "growth_potential": 1,
-      "total": 5
+      "total": 4
     },
     "is_top": false,
     "score_reasons": {
       "vibecoding_ease": "需要一定架构理解",
       "logic_moat": "有一定设计深度",
-      "track_fit": "命中 1 个核心赛道：银发",
-      "growth_potential": "有一定传播潜力"
+      "track_fit": "未直接命中宠物/银发/玄学/金融/教育五大变现赛道",
+      "growth_potential": "有一定传播潜力",
+      "usage": "适合有特定需求的开发者，可以根据自己的场景灵活使用。"
     },
     "stars": 377,
     "forks": 47,
@@ -1702,50 +1714,25 @@
     "scores": {
       "vibecoding_ease": 2,
       "logic_moat": 1,
-      "track_fit": 2,
+      "track_fit": 1,
       "growth_potential": 1,
-      "total": 6
-    },
-    "is_top": false,
-    "score_reasons": {
-      "vibecoding_ease": "需要一定架构理解",
-      "logic_moat": "有一定设计深度",
-      "track_fit": "命中 3 个核心赛道：宠物, 金融, 教育",
-      "growth_potential": "有一定传播潜力"
-    },
-    "stars": 369,
-    "forks": 1,
-    "language": "Python"
-  },
-  {
-    "date": "2026-03-12",
-    "id": "2026-03-12-014",
-    "title": "aiming-lab / MetaClaw",
-    "url": "https://github.com/aiming-lab/MetaClaw",
-    "raw_description": "Just talk to your agent — it learns and EVOLVES.",
-    "description": "这是一个 AI 相关的开源项目。简单来说，它Just talk to your agent — it learns and EVOLVES.。\n\n🎯 使用场景：适合想用 AI 提升效率的开发者，或者想快速搭建智能应用的创业者。",
-    "metaphor": "💡 它就像你的「智能助手」——Just talk to your agent — it learns and EVOLVES.。",
-    "scores": {
-      "vibecoding_ease": 2,
-      "logic_moat": 1,
-      "track_fit": 0,
-      "growth_potential": 2,
       "total": 5
     },
     "is_top": false,
     "score_reasons": {
       "vibecoding_ease": "需要一定架构理解",
       "logic_moat": "有一定设计深度",
-      "track_fit": "未直接命中宠物/银发/玄学/金融/教育五大变现赛道",
-      "growth_potential": "热点赛道，易传播变现"
+      "track_fit": "命中 1 个核心赛道：金融",
+      "growth_potential": "有一定传播潜力",
+      "usage": "适合有特定需求的开发者，可以根据自己的场景灵活使用。"
     },
-    "stars": 346,
-    "forks": 34,
+    "stars": 371,
+    "forks": 1,
     "language": "Python"
   },
   {
     "date": "2026-03-12",
-    "id": "2026-03-12-015",
+    "id": "2026-03-12-014",
     "title": "Justi1980 / Dawn-Validator-BOT",
     "url": "https://github.com/Justi1980/Dawn-Validator-BOT",
     "raw_description": "Dawn Validator BOT — Automated node validation bot for Dawn Protocol testnet with multi-account support, proxy rotation, validator registration, keepalive pings, reward tracking, and Rich CLI interface for decentralized bandwidth network participation",
@@ -1763,10 +1750,38 @@
       "vibecoding_ease": "需要一定架构理解",
       "logic_moat": "有一定设计深度",
       "track_fit": "未直接命中宠物/银发/玄学/金融/教育五大变现赛道",
-      "growth_potential": "有一定传播潜力"
+      "growth_potential": "有一定传播潜力",
+      "usage": "适合想节省时间、让电脑帮你干活的人，特别是需要处理重复性任务的场景。"
     },
-    "stars": 344,
-    "forks": 206,
+    "stars": 360,
+    "forks": 216,
+    "language": "Python"
+  },
+  {
+    "date": "2026-03-12",
+    "id": "2026-03-12-015",
+    "title": "aiming-lab / MetaClaw",
+    "url": "https://github.com/aiming-lab/MetaClaw",
+    "raw_description": "Just talk to your agent — it learns and EVOLVES.",
+    "description": "这是一个 AI 相关的开源项目。简单来说，它Just talk to your agent — it learns and EVOLVES.。\n\n🎯 使用场景：适合想用 AI 提升效率的开发者，或者想快速搭建智能应用的创业者。",
+    "metaphor": "💡 它就像你的「智能助手」——Just talk to your agent — it learns and EVOLVES.。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 1,
+      "track_fit": 0,
+      "growth_potential": 2,
+      "total": 5
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "需要一定架构理解",
+      "logic_moat": "有一定设计深度",
+      "track_fit": "未直接命中宠物/银发/玄学/金融/教育五大变现赛道",
+      "growth_potential": "热点赛道，易传播变现",
+      "usage": "适合想用 AI 提升效率的开发者，或者想快速搭建智能应用的创业者。"
+    },
+    "stars": 349,
+    "forks": 34,
     "language": "Python"
   }
 ]
