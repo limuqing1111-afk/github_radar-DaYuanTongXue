@@ -4651,5 +4651,410 @@
     "stars": 12204,
     "forks": 0,
     "language": "Rust"
+  },
+  {
+    "date": "2026-03-24",
+    "id": "2026-03-24-001",
+    "title": "FujiwaraChoki / MoneyPrinterV2",
+    "url": "https://github.com/FujiwaraChoki/MoneyPrinterV2",
+    "raw_description": "Automate the process of making money online.",
+    "description": "这是一个自动化工具项目。它能够帮你自动完成重复性工作，比如定时任务、数据抓取、流程自动化等，节省大量手动操作时间。\n\n🎯 使用场景：适合想节省时间的开发者，可用于定时任务、批量处理、流程自动化等场景。",
+    "metaphor": "💡 它就像「自动洗衣机」——你把脏衣服丢进去，设定好程序，它自动帮你洗干净，你完全不用盯着。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 1,
+      "track_fit": 2,
+      "growth_potential": 2,
+      "total": 7
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "中等复杂度，需理解架构设计",
+      "logic_moat": "常规实现，属于常见技术方案",
+      "track_fit": "命中 2 个核心赛道：宠物, 银发",
+      "growth_potential": "具备直接变现场景或自动化赚钱能力",
+      "usage": "适合想节省时间的开发者，可用于定时任务、批量处理、流程自动化等场景。"
+    },
+    "stars": 22902,
+    "forks": 0,
+    "language": "Python"
+  },
+  {
+    "date": "2026-03-24",
+    "id": "2026-03-24-002",
+    "title": "bytedance / deer-flow",
+    "url": "https://github.com/bytedance/deer-flow",
+    "raw_description": "An open-source SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
+    "description": "这是一个 AI 相关的开源项目。它利用人工智能技术，帮助用户自动化处理复杂任务，提升工作效率。可以应用于智能对话、内容生成、数据分析等场景。\n\n🎯 使用场景：适合需要构建 AI 知识库、智能问答系统的开发者，可用于企业客服、个人知识管理等场景。",
+    "metaphor": "💡 它就像你的「智能助手」——你告诉它要做什么，它就能理解并帮你完成，就像一个24小时在线的得力帮手。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 1,
+      "track_fit": 0,
+      "growth_potential": 2,
+      "total": 5
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "中等复杂度，需理解架构设计",
+      "logic_moat": "常规实现，属于常见技术方案",
+      "track_fit": "未直接命中宠物/银发/玄学/金融/教育五大变现赛道",
+      "growth_potential": "处于 AI/Agent 热点赛道，易获得关注",
+      "usage": "适合需要构建 AI 知识库、智能问答系统的开发者，可用于企业客服、个人知识管理等场景。"
+    },
+    "stars": 39334,
+    "forks": 0,
+    "language": "Python"
+  },
+  {
+    "date": "2026-03-24",
+    "id": "2026-03-24-003",
+    "title": "Crosstalk-Solutions / project-nomad",
+    "url": "https://github.com/Crosstalk-Solutions/project-nomad",
+    "raw_description": "Project N.O.M.A.D, is a self-contained, offline survival computer packed with critical tools, knowledge, and AI to keep you informed and empowered—anytime, anywhere.",
+    "description": "这是一个 AI 相关的开源项目。它利用人工智能技术，帮助用户自动化处理复杂任务，提升工作效率。可以应用于智能对话、内容生成、数据分析等场景。\n\n🎯 使用场景：适合想用 AI 提升效率的开发者，可快速集成到现有产品或作为独立工具提供服务。",
+    "metaphor": "💡 它就像你的「智能助手」——你告诉它要做什么，它就能理解并帮你完成，就像一个24小时在线的得力帮手。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 1,
+      "track_fit": 2,
+      "growth_potential": 2,
+      "total": 7
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "中等复杂度，需理解架构设计",
+      "logic_moat": "常规实现，属于常见技术方案",
+      "track_fit": "命中 2 个核心赛道：宠物, 教育",
+      "growth_potential": "处于 AI/Agent 热点赛道，易获得关注",
+      "usage": "适合想用 AI 提升效率的开发者，可快速集成到现有产品或作为独立工具提供服务。"
+    },
+    "stars": 13380,
+    "forks": 0,
+    "language": "TypeScript"
+  },
+  {
+    "date": "2026-03-24",
+    "id": "2026-03-24-004",
+    "title": "vxcontrol / pentagi",
+    "url": "https://github.com/vxcontrol/pentagi",
+    "raw_description": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
+    "description": "这是一个 AI 相关的开源项目。它利用人工智能技术，帮助用户自动化处理复杂任务，提升工作效率。可以应用于智能对话、内容生成、数据分析等场景。\n\n🎯 使用场景：适合想构建自动化工作流、智能代理系统的开发者，可用于自动化办公、智能助手等场景。",
+    "metaphor": "💡 它就像你的「智能助手」——你告诉它要做什么，它就能理解并帮你完成，就像一个24小时在线的得力帮手。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 1,
+      "track_fit": 0,
+      "growth_potential": 2,
+      "total": 5
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "中等复杂度，需理解架构设计",
+      "logic_moat": "常规实现，属于常见技术方案",
+      "track_fit": "未直接命中宠物/银发/玄学/金融/教育五大变现赛道",
+      "growth_potential": "处于 AI/Agent 热点赛道，易获得关注",
+      "usage": "适合想构建自动化工作流、智能代理系统的开发者，可用于自动化办公、智能助手等场景。"
+    },
+    "stars": 12990,
+    "forks": 0,
+    "language": "Go"
+  },
+  {
+    "date": "2026-03-24",
+    "id": "2026-03-24-005",
+    "title": "browser-use / browser-use",
+    "url": "https://github.com/browser-use/browser-use",
+    "raw_description": "🌐 Make websites accessible for AI agents. Automate tasks online with ease.",
+    "description": "这是一个 AI 相关的开源项目。它利用人工智能技术，帮助用户自动化处理复杂任务，提升工作效率。可以应用于智能对话、内容生成、数据分析等场景。\n\n🎯 使用场景：适合想构建自动化工作流、智能代理系统的开发者，可用于自动化办公、智能助手等场景。",
+    "metaphor": "💡 它就像你的「智能助手」——你告诉它要做什么，它就能理解并帮你完成，就像一个24小时在线的得力帮手。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 1,
+      "track_fit": 0,
+      "growth_potential": 2,
+      "total": 5
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "中等复杂度，需理解架构设计",
+      "logic_moat": "常规实现，属于常见技术方案",
+      "track_fit": "未直接命中宠物/银发/玄学/金融/教育五大变现赛道",
+      "growth_potential": "处于 AI/Agent 热点赛道，易获得关注",
+      "usage": "适合想构建自动化工作流、智能代理系统的开发者，可用于自动化办公、智能助手等场景。"
+    },
+    "stars": 83626,
+    "forks": 0,
+    "language": "Python"
+  },
+  {
+    "date": "2026-03-24",
+    "id": "2026-03-24-006",
+    "title": "TauricResearch / TradingAgents",
+    "url": "https://github.com/TauricResearch/TradingAgents",
+    "raw_description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+    "description": "这是一个 AI 相关的开源项目。它利用人工智能技术，帮助用户自动化处理复杂任务，提升工作效率。可以应用于智能对话、内容生成、数据分析等场景。\n\n🎯 使用场景：适合需要构建 AI 知识库、智能问答系统的开发者，可用于企业客服、个人知识管理等场景。",
+    "metaphor": "💡 它就像你的「智能助手」——你告诉它要做什么，它就能理解并帮你完成，就像一个24小时在线的得力帮手。",
+    "scores": {
+      "vibecoding_ease": 1,
+      "logic_moat": 1,
+      "track_fit": 2,
+      "growth_potential": 2,
+      "total": 6
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "涉及底层系统/框架，需要深度技术理解",
+      "logic_moat": "常规实现，属于常见技术方案",
+      "track_fit": "命中 2 个核心赛道：金融, 教育",
+      "growth_potential": "具备直接变现场景或自动化赚钱能力",
+      "usage": "适合需要构建 AI 知识库、智能问答系统的开发者，可用于企业客服、个人知识管理等场景。"
+    },
+    "stars": 39303,
+    "forks": 0,
+    "language": "Python"
+  },
+  {
+    "date": "2026-03-24",
+    "id": "2026-03-24-007",
+    "title": "tinygrad / tinygrad",
+    "url": "https://github.com/tinygrad/tinygrad",
+    "raw_description": "You like pytorch? You like micrograd? You love tinygrad! ❤️",
+    "description": "这是一个开源项目。解决特定的开发需求或提供实用功能，可以根据具体场景灵活使用。\n\n🎯 使用场景：适合有相关技术需求的开发者，可根据具体场景灵活集成到现有项目中。",
+    "metaphor": "💡 它就像「万能扳手」——虽然不是最耀眼的工具，但能帮你解决很多实际问题，是开发者的好帮手。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 1,
+      "track_fit": 1,
+      "growth_potential": 1,
+      "total": 5
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "中等复杂度，需理解架构设计",
+      "logic_moat": "常规实现，属于常见技术方案",
+      "track_fit": "命中 1 个核心赛道：教育",
+      "growth_potential": "有一定市场需求，可垂直领域变现",
+      "usage": "适合有相关技术需求的开发者，可根据具体场景灵活集成到现有项目中。"
+    },
+    "stars": 31878,
+    "forks": 0,
+    "language": "Python"
+  },
+  {
+    "date": "2026-03-24",
+    "id": "2026-03-24-008",
+    "title": "affaan-m / everything-claude-code",
+    "url": "https://github.com/affaan-m/everything-claude-code",
+    "raw_description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+    "description": "这是一个 AI 相关的开源项目。它利用人工智能技术，帮助用户自动化处理复杂任务，提升工作效率。可以应用于智能对话、内容生成、数据分析等场景。\n\n🎯 使用场景：适合需要构建 AI 知识库、智能问答系统的开发者，可用于企业客服、个人知识管理等场景。",
+    "metaphor": "💡 它就像你的「智能助手」——你告诉它要做什么，它就能理解并帮你完成，就像一个24小时在线的得力帮手。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 1,
+      "track_fit": 0,
+      "growth_potential": 2,
+      "total": 5
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "中等复杂度，需理解架构设计",
+      "logic_moat": "常规实现，属于常见技术方案",
+      "track_fit": "未直接命中宠物/银发/玄学/金融/教育五大变现赛道",
+      "growth_potential": "处于 AI/Agent 热点赛道，易获得关注",
+      "usage": "适合需要构建 AI 知识库、智能问答系统的开发者，可用于企业客服、个人知识管理等场景。"
+    },
+    "stars": 101941,
+    "forks": 0,
+    "language": "JavaScript"
+  },
+  {
+    "date": "2026-03-24",
+    "id": "2026-03-24-009",
+    "title": "NousResearch / hermes-agent",
+    "url": "https://github.com/NousResearch/hermes-agent",
+    "raw_description": "The agent that grows with you",
+    "description": "这是一个 AI 相关的开源项目。它利用人工智能技术，帮助用户自动化处理复杂任务，提升工作效率。可以应用于智能对话、内容生成、数据分析等场景。\n\n🎯 使用场景：适合想构建自动化工作流、智能代理系统的开发者，可用于自动化办公、智能助手等场景。",
+    "metaphor": "💡 它就像你的「智能助手」——你告诉它要做什么，它就能理解并帮你完成，就像一个24小时在线的得力帮手。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 1,
+      "track_fit": 1,
+      "growth_potential": 2,
+      "total": 6
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "中等复杂度，需理解架构设计",
+      "logic_moat": "常规实现，属于常见技术方案",
+      "track_fit": "命中 1 个核心赛道：教育",
+      "growth_potential": "处于 AI/Agent 热点赛道，易获得关注",
+      "usage": "适合想构建自动化工作流、智能代理系统的开发者，可用于自动化办公、智能助手等场景。"
+    },
+    "stars": 11555,
+    "forks": 0,
+    "language": "Python"
+  },
+  {
+    "date": "2026-03-24",
+    "id": "2026-03-24-010",
+    "title": "jingyaogong / minimind",
+    "url": "https://github.com/jingyaogong/minimind",
+    "raw_description": "🚀🚀 「大模型」2小时完全从0训练26M的小参数GPT！🌏 Train a 26M-parameter GPT from scratch in just 2h!",
+    "description": "这是一个 AI 相关的开源项目。它利用人工智能技术，帮助用户自动化处理复杂任务，提升工作效率。可以应用于智能对话、内容生成、数据分析等场景。\n\n🎯 使用场景：适合需要构建 AI 知识库、智能问答系统的开发者，可用于企业客服、个人知识管理等场景。",
+    "metaphor": "💡 它就像你的「智能助手」——你告诉它要做什么，它就能理解并帮你完成，就像一个24小时在线的得力帮手。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 1,
+      "track_fit": 1,
+      "growth_potential": 2,
+      "total": 6
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "中等复杂度，需理解架构设计",
+      "logic_moat": "常规实现，属于常见技术方案",
+      "track_fit": "命中 1 个核心赛道：教育",
+      "growth_potential": "处于 AI/Agent 热点赛道，易获得关注",
+      "usage": "适合需要构建 AI 知识库、智能问答系统的开发者，可用于企业客服、个人知识管理等场景。"
+    },
+    "stars": 42559,
+    "forks": 0,
+    "language": "Python"
+  },
+  {
+    "date": "2026-03-24",
+    "id": "2026-03-24-011",
+    "title": "hsliuping / TradingAgents-CN",
+    "url": "https://github.com/hsliuping/TradingAgents-CN",
+    "raw_description": "基于多智能体LLM的中文金融交易框架 - TradingAgents中文增强版",
+    "description": "这是一个 AI 相关的开源项目。它利用人工智能技术，帮助用户自动化处理复杂任务，提升工作效率。可以应用于智能对话、内容生成、数据分析等场景。\n\n🎯 使用场景：适合需要构建 AI 知识库、智能问答系统的开发者，可用于企业客服、个人知识管理等场景。",
+    "metaphor": "💡 它就像你的「智能助手」——你告诉它要做什么，它就能理解并帮你完成，就像一个24小时在线的得力帮手。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 1,
+      "track_fit": 2,
+      "growth_potential": 2,
+      "total": 7
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "中等复杂度，需理解架构设计",
+      "logic_moat": "常规实现，属于常见技术方案",
+      "track_fit": "命中 2 个核心赛道：金融, 教育",
+      "growth_potential": "具备直接变现场景或自动化赚钱能力",
+      "usage": "适合需要构建 AI 知识库、智能问答系统的开发者，可用于企业客服、个人知识管理等场景。"
+    },
+    "stars": 20308,
+    "forks": 0,
+    "language": "Python"
+  },
+  {
+    "date": "2026-03-24",
+    "id": "2026-03-24-012",
+    "title": "kepano / obsidian-skills",
+    "url": "https://github.com/kepano/obsidian-skills",
+    "raw_description": "Agent skills for Obsidian. Teach your agent to use Markdown, Bases, JSON Canvas, and use the CLI.",
+    "description": "这是一个 AI 相关的开源项目。它利用人工智能技术，帮助用户自动化处理复杂任务，提升工作效率。可以应用于智能对话、内容生成、数据分析等场景。\n\n🎯 使用场景：适合想构建自动化工作流、智能代理系统的开发者，可用于自动化办公、智能助手等场景。",
+    "metaphor": "💡 它就像你的「智能助手」——你告诉它要做什么，它就能理解并帮你完成，就像一个24小时在线的得力帮手。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 1,
+      "track_fit": 2,
+      "growth_potential": 2,
+      "total": 7
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "中等复杂度，需理解架构设计",
+      "logic_moat": "常规实现，属于常见技术方案",
+      "track_fit": "命中 2 个核心赛道：宠物, 银发",
+      "growth_potential": "处于 AI/Agent 热点赛道，易获得关注",
+      "usage": "适合想构建自动化工作流、智能代理系统的开发者，可用于自动化办公、智能助手等场景。"
+    },
+    "stars": 16344,
+    "forks": 0,
+    "language": ""
+  },
+  {
+    "date": "2026-03-24",
+    "id": "2026-03-24-013",
+    "title": "czlonkowski / n8n-mcp",
+    "url": "https://github.com/czlonkowski/n8n-mcp",
+    "raw_description": "A MCP for Claude Desktop / Claude Code / Windsurf / Cursor to build n8n workflows for you",
+    "description": "这是一个 AI 相关的开源项目。它利用人工智能技术，帮助用户自动化处理复杂任务，提升工作效率。可以应用于智能对话、内容生成、数据分析等场景。\n\n🎯 使用场景：适合需要构建 AI 知识库、智能问答系统的开发者，可用于企业客服、个人知识管理等场景。",
+    "metaphor": "💡 它就像你的「智能助手」——你告诉它要做什么，它就能理解并帮你完成，就像一个24小时在线的得力帮手。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 2,
+      "track_fit": 0,
+      "growth_potential": 2,
+      "total": 6
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "中等复杂度，需理解架构设计",
+      "logic_moat": "有特定的业务逻辑设计，需理解领域知识",
+      "track_fit": "未直接命中宠物/银发/玄学/金融/教育五大变现赛道",
+      "growth_potential": "处于 AI/Agent 热点赛道，易获得关注",
+      "usage": "适合需要构建 AI 知识库、智能问答系统的开发者，可用于企业客服、个人知识管理等场景。"
+    },
+    "stars": 16047,
+    "forks": 0,
+    "language": "TypeScript"
+  },
+  {
+    "date": "2026-03-24",
+    "id": "2026-03-24-014",
+    "title": "iptv-org / iptv",
+    "url": "https://github.com/iptv-org/iptv",
+    "raw_description": "Collection of publicly available IPTV channels from all over the world",
+    "description": "这是一个 AI 相关的开源项目。它利用人工智能技术，帮助用户自动化处理复杂任务，提升工作效率。可以应用于智能对话、内容生成、数据分析等场景。\n\n🎯 使用场景：适合想用 AI 提升效率的开发者，可快速集成到现有产品或作为独立工具提供服务。",
+    "metaphor": "💡 它就像你的「智能助手」——你告诉它要做什么，它就能理解并帮你完成，就像一个24小时在线的得力帮手。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 1,
+      "track_fit": 0,
+      "growth_potential": 2,
+      "total": 5
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "中等复杂度，需理解架构设计",
+      "logic_moat": "常规实现，属于常见技术方案",
+      "track_fit": "未直接命中宠物/银发/玄学/金融/教育五大变现赛道",
+      "growth_potential": "处于 AI/Agent 热点赛道，易获得关注",
+      "usage": "适合想用 AI 提升效率的开发者，可快速集成到现有产品或作为独立工具提供服务。"
+    },
+    "stars": 113587,
+    "forks": 0,
+    "language": "TypeScript"
+  },
+  {
+    "date": "2026-03-24",
+    "id": "2026-03-24-015",
+    "title": "hesreallyhim / awesome-claude-code",
+    "url": "https://github.com/hesreallyhim/awesome-claude-code",
+    "raw_description": "A curated list of awesome skills, hooks, slash-commands, agent orchestrators, applications, and plugins for Claude Code by Anthropic",
+    "description": "这是一个 AI 相关的开源项目。它利用人工智能技术，帮助用户自动化处理复杂任务，提升工作效率。可以应用于智能对话、内容生成、数据分析等场景。\n\n🎯 使用场景：适合需要构建 AI 知识库、智能问答系统的开发者，可用于企业客服、个人知识管理等场景。",
+    "metaphor": "💡 它就像你的「智能助手」——你告诉它要做什么，它就能理解并帮你完成，就像一个24小时在线的得力帮手。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 1,
+      "track_fit": 2,
+      "growth_potential": 2,
+      "total": 7
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "中等复杂度，需理解架构设计",
+      "logic_moat": "常规实现，属于常见技术方案",
+      "track_fit": "命中 2 个核心赛道：宠物, 金融",
+      "growth_potential": "处于 AI/Agent 热点赛道，易获得关注",
+      "usage": "适合需要构建 AI 知识库、智能问答系统的开发者，可用于企业客服、个人知识管理等场景。"
+    },
+    "stars": 30948,
+    "forks": 0,
+    "language": "Python"
   }
 ]
