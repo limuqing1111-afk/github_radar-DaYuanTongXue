@@ -1,0 +1,47 @@
+name: 每日自动更新 GitHub AI 雷达
+
+on:
+  schedule:
+    # 每天北京时间 8:00 运行（UTC 0:00）
+    - cron: '0 0 * * *'
+  workflow_dispatch:  # 允许手动触发
+
+permissions:
+  contents: write  # 允许推送数据更新
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 设置 Python 环境
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 获取 AI 分析榜单
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo "🔍 步骤 1: 获取 AI 分析榜单..."
+          python3 fetch_and_analyze.py
+
+      - name: 获取原始趋势榜单
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo "🔍 步骤 2: 获取原始趋势榜单..."
+          python3 fetch_raw_trending.py
+
+      - name: 提交并推送更新数据
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
+          git add radar_history.json raw_trending.json
+          git diff --staged --quiet || git commit -m "📡 每日自动更新 $(date '+%Y-%m-%d')"
+          git push
