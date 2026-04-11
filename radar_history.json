@@ -7054,5 +7054,410 @@
     "stars": 299,
     "forks": 139,
     "language": "Python"
+  },
+  {
+    "date": "2026-04-11",
+    "id": "2026-04-11-001",
+    "title": "milla-jovovich / mempalace",
+    "url": "https://github.com/milla-jovovich/mempalace",
+    "raw_description": "The highest-scoring AI memory system ever benchmarked. And it's free.",
+    "description": "这是一个 AI 相关的开源项目。它利用人工智能技术，帮助用户自动化处理复杂任务，提升工作效率。可以应用于智能对话、内容生成、数据分析等场景。\n\n🎯 使用场景：适合想用 AI 提升效率的开发者，或者想快速搭建智能应用的创业者。",
+    "metaphor": "💡 它就像你的「智能助手」——你告诉它要做什么，它就能理解并帮你完成，就像一个24小时在线的得力帮手。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 1,
+      "track_fit": 0,
+      "growth_potential": 2,
+      "total": 5
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "中等复杂度，需理解架构设计",
+      "logic_moat": "常规实现，属于常见技术方案",
+      "track_fit": "未直接命中宠物/银发/玄学/金融/教育五大变现赛道",
+      "growth_potential": "处于 AI/Agent 热点赛道，易获得关注",
+      "usage": "适合想用 AI 提升效率的开发者，或者想快速搭建智能应用的创业者。"
+    },
+    "stars": 40054,
+    "forks": 5035,
+    "language": "Python"
+  },
+  {
+    "date": "2026-04-11",
+    "id": "2026-04-11-002",
+    "title": "alchaincyf / nuwa-skill",
+    "url": "https://github.com/alchaincyf/nuwa-skill",
+    "raw_description": "你想蒸馏的下一个员工，何必是同事。蒸馏任何人的思维方式——心智模型、决策启发式、表达DNA。Distill how anyone thinks.",
+    "description": "这是一个 Python 开源项目。解决特定的开发需求或提供实用功能，可以根据具体场景灵活使用。\n\n🎯 使用场景：适合有特定需求的开发者，可以根据自己的场景灵活使用。",
+    "metaphor": "💡 它就像「万能扳手」——虽然不是最耀眼的工具，但能帮你解决很多实际问题，是开发者的好帮手。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 1,
+      "track_fit": 1,
+      "growth_potential": 1,
+      "total": 5
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "中等复杂度，需理解架构设计",
+      "logic_moat": "常规实现，属于常见技术方案",
+      "track_fit": "命中 1 个核心赛道：金融",
+      "growth_potential": "有一定市场需求，可垂直领域变现",
+      "usage": "适合有特定需求的开发者，可以根据自己的场景灵活使用。"
+    },
+    "stars": 6613,
+    "forks": 1003,
+    "language": "Python"
+  },
+  {
+    "date": "2026-04-11",
+    "id": "2026-04-11-003",
+    "title": "mattmireles / gemma-tuner-multimodal",
+    "url": "https://github.com/mattmireles/gemma-tuner-multimodal",
+    "raw_description": "Fine-tune Gemma 4 and 3n with audio, images and text on Apple Silicon, using PyTorch and Metal Performance Shaders.",
+    "description": "这是一个 Python 开源项目。解决特定的开发需求或提供实用功能，可以根据具体场景灵活使用。\n\n🎯 使用场景：适合有特定需求的开发者，可以根据自己的场景灵活使用。",
+    "metaphor": "💡 它就像「万能扳手」——虽然不是最耀眼的工具，但能帮你解决很多实际问题，是开发者的好帮手。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 1,
+      "track_fit": 0,
+      "growth_potential": 1,
+      "total": 4
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "中等复杂度，需理解架构设计",
+      "logic_moat": "常规实现，属于常见技术方案",
+      "track_fit": "未直接命中宠物/银发/玄学/金融/教育五大变现赛道",
+      "growth_potential": "有一定市场需求，可垂直领域变现",
+      "usage": "适合有特定需求的开发者，可以根据自己的场景灵活使用。"
+    },
+    "stars": 1151,
+    "forks": 70,
+    "language": "Python"
+  },
+  {
+    "date": "2026-04-11",
+    "id": "2026-04-11-004",
+    "title": "phuryn / claude-usage",
+    "url": "https://github.com/phuryn/claude-usage",
+    "raw_description": "A local dashboard for tracking your Claude Code token usage, costs, and session history. Pro and Max subscribers get a progress bar. This gives you the full picture.",
+    "description": "这是一个 AI 相关的开源项目。它利用人工智能技术，帮助用户自动化处理复杂任务，提升工作效率。可以应用于智能对话、内容生成、数据分析等场景。\n\n🎯 使用场景：适合想用 AI 提升效率的开发者，或者想快速搭建智能应用的创业者。",
+    "metaphor": "💡 它就像你的「智能助手」——你告诉它要做什么，它就能理解并帮你完成，就像一个24小时在线的得力帮手。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 1,
+      "track_fit": 0,
+      "growth_potential": 2,
+      "total": 5
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "中等复杂度，需理解架构设计",
+      "logic_moat": "常规实现，属于常见技术方案",
+      "track_fit": "未直接命中宠物/银发/玄学/金融/教育五大变现赛道",
+      "growth_potential": "处于 AI/Agent 热点赛道，易获得关注",
+      "usage": "适合想用 AI 提升效率的开发者，或者想快速搭建智能应用的创业者。"
+    },
+    "stars": 815,
+    "forks": 116,
+    "language": "Python"
+  },
+  {
+    "date": "2026-04-11",
+    "id": "2026-04-11-005",
+    "title": "coleam00 / claude-memory-compiler",
+    "url": "https://github.com/coleam00/claude-memory-compiler",
+    "raw_description": "Give Claude Code a memory that evolves with your codebase. Hooks automatically capture sessions, the Claude Agent SDK extracts key decisions and lessons, and an LLM compiler organizes everything into structured, cross-referenced knowledge articles - inspired by Karpathy's LLM Knowledge Base architecture.",
+    "description": "这是一个 AI 相关的开源项目。它利用人工智能技术，帮助用户自动化处理复杂任务，提升工作效率。可以应用于智能对话、内容生成、数据分析等场景。\n\n🎯 使用场景：适合想用 AI 提升效率的开发者，或者想快速搭建智能应用的创业者。",
+    "metaphor": "💡 它就像你的「智能助手」——你告诉它要做什么，它就能理解并帮你完成，就像一个24小时在线的得力帮手。",
+    "scores": {
+      "vibecoding_ease": 1,
+      "logic_moat": 2,
+      "track_fit": 0,
+      "growth_potential": 2,
+      "total": 5
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "涉及底层系统/框架，需要深度技术理解",
+      "logic_moat": "有特定的业务逻辑设计，需理解领域知识",
+      "track_fit": "未直接命中宠物/银发/玄学/金融/教育五大变现赛道",
+      "growth_potential": "处于 AI/Agent 热点赛道，易获得关注",
+      "usage": "适合想用 AI 提升效率的开发者，或者想快速搭建智能应用的创业者。"
+    },
+    "stars": 499,
+    "forks": 121,
+    "language": "Python"
+  },
+  {
+    "date": "2026-04-11",
+    "id": "2026-04-11-006",
+    "title": "whwangovo / pyre-code",
+    "url": "https://github.com/whwangovo/pyre-code",
+    "raw_description": "A self-hosted ML coding practice platform. 68 problems from ReLU to flow matching — attention, training, RLHF, diffusion, and more. Instant feedback in the browser.",
+    "description": "这是一个 AI 相关的开源项目。它利用人工智能技术，帮助用户自动化处理复杂任务，提升工作效率。可以应用于智能对话、内容生成、数据分析等场景。\n\n🎯 使用场景：适合想用 AI 提升效率的开发者，或者想快速搭建智能应用的创业者。",
+    "metaphor": "💡 它就像你的「智能助手」——你告诉它要做什么，它就能理解并帮你完成，就像一个24小时在线的得力帮手。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 1,
+      "track_fit": 1,
+      "growth_potential": 2,
+      "total": 6
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "中等复杂度，需理解架构设计",
+      "logic_moat": "常规实现，属于常见技术方案",
+      "track_fit": "命中 1 个核心赛道：教育",
+      "growth_potential": "处于 AI/Agent 热点赛道，易获得关注",
+      "usage": "适合想用 AI 提升效率的开发者，或者想快速搭建智能应用的创业者。"
+    },
+    "stars": 463,
+    "forks": 49,
+    "language": "Python"
+  },
+  {
+    "date": "2026-04-11",
+    "id": "2026-04-11-007",
+    "title": "SAGAR-TAMANG / friday-tony-stark-demo",
+    "url": "https://github.com/SAGAR-TAMANG/friday-tony-stark-demo",
+    "raw_description": "Demo of tools of capabilities of Tony Stark.",
+    "description": "这是一个命令行工具。通过终端命令就能快速使用，适合程序员和开发者提高工作效率，通常体积小巧但功能强大。\n\n🎯 使用场景：适合程序员和开发者，喜欢用命令行提高效率的人。",
+    "metaphor": "💡 它就像「瑞士军刀」——小巧便携，但集成了多种实用功能，是程序员工具箱里的必备利器。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 1,
+      "track_fit": 0,
+      "growth_potential": 1,
+      "total": 4
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "中等复杂度，需理解架构设计",
+      "logic_moat": "常规实现，属于常见技术方案",
+      "track_fit": "未直接命中宠物/银发/玄学/金融/教育五大变现赛道",
+      "growth_potential": "有一定市场需求，可垂直领域变现",
+      "usage": "适合程序员和开发者，喜欢用命令行提高效率的人。"
+    },
+    "stars": 417,
+    "forks": 140,
+    "language": "Python"
+  },
+  {
+    "date": "2026-04-11",
+    "id": "2026-04-11-008",
+    "title": "joeynyc / hermes-hudui",
+    "url": "https://github.com/joeynyc/hermes-hudui",
+    "raw_description": "Web UI consciousness monitor for Hermes — the AI agent with persistent memory",
+    "description": "这是一个 AI 相关的开源项目。它利用人工智能技术，帮助用户自动化处理复杂任务，提升工作效率。可以应用于智能对话、内容生成、数据分析等场景。\n\n🎯 使用场景：适合想用 AI 提升效率的开发者，或者想快速搭建智能应用的创业者。",
+    "metaphor": "💡 它就像你的「智能助手」——你告诉它要做什么，它就能理解并帮你完成，就像一个24小时在线的得力帮手。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 1,
+      "track_fit": 2,
+      "growth_potential": 2,
+      "total": 7
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "中等复杂度，需理解架构设计",
+      "logic_moat": "常规实现，属于常见技术方案",
+      "track_fit": "命中 2 个核心赛道：宠物, 教育",
+      "growth_potential": "处于 AI/Agent 热点赛道，易获得关注",
+      "usage": "适合想用 AI 提升效率的开发者，或者想快速搭建智能应用的创业者。"
+    },
+    "stars": 392,
+    "forks": 33,
+    "language": "Python"
+  },
+  {
+    "date": "2026-04-11",
+    "id": "2026-04-11-009",
+    "title": "AMAP-ML / SkillClaw",
+    "url": "https://github.com/AMAP-ML/SkillClaw",
+    "raw_description": "Let Skills Evolve Collectively with Agentic Evolver ",
+    "description": "这是一个 AI 相关的开源项目。它利用人工智能技术，帮助用户自动化处理复杂任务，提升工作效率。可以应用于智能对话、内容生成、数据分析等场景。\n\n🎯 使用场景：适合想用 AI 提升效率的开发者，或者想快速搭建智能应用的创业者。",
+    "metaphor": "💡 它就像你的「智能助手」——你告诉它要做什么，它就能理解并帮你完成，就像一个24小时在线的得力帮手。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 1,
+      "track_fit": 1,
+      "growth_potential": 2,
+      "total": 6
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "中等复杂度，需理解架构设计",
+      "logic_moat": "常规实现，属于常见技术方案",
+      "track_fit": "命中 1 个核心赛道：银发",
+      "growth_potential": "处于 AI/Agent 热点赛道，易获得关注",
+      "usage": "适合想用 AI 提升效率的开发者，或者想快速搭建智能应用的创业者。"
+    },
+    "stars": 285,
+    "forks": 39,
+    "language": "Python"
+  },
+  {
+    "date": "2026-04-11",
+    "id": "2026-04-11-010",
+    "title": "DLYuanGod / MegaTrain",
+    "url": "https://github.com/DLYuanGod/MegaTrain",
+    "raw_description": "",
+    "description": "这是一个 AI 相关的开源项目。它利用人工智能技术，帮助用户自动化处理复杂任务，提升工作效率。可以应用于智能对话、内容生成、数据分析等场景。\n\n🎯 使用场景：适合想用 AI 提升效率的开发者，或者想快速搭建智能应用的创业者。",
+    "metaphor": "💡 它就像你的「智能助手」——你告诉它要做什么，它就能理解并帮你完成，就像一个24小时在线的得力帮手。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 1,
+      "track_fit": 1,
+      "growth_potential": 2,
+      "total": 6
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "中等复杂度，需理解架构设计",
+      "logic_moat": "常规实现，属于常见技术方案",
+      "track_fit": "命中 1 个核心赛道：银发",
+      "growth_potential": "处于 AI/Agent 热点赛道，易获得关注",
+      "usage": "适合想用 AI 提升效率的开发者，或者想快速搭建智能应用的创业者。"
+    },
+    "stars": 278,
+    "forks": 20,
+    "language": "Python"
+  },
+  {
+    "date": "2026-04-11",
+    "id": "2026-04-11-011",
+    "title": "Ar9av / obsidian-wiki",
+    "url": "https://github.com/Ar9av/obsidian-wiki",
+    "raw_description": "Framework for AI agents to build and maintain an Obsidian wiki using Karpathy's LLM Wiki pattern",
+    "description": "这是一个 AI 相关的开源项目。它利用人工智能技术，帮助用户自动化处理复杂任务，提升工作效率。可以应用于智能对话、内容生成、数据分析等场景。\n\n🎯 使用场景：适合想用 AI 提升效率的开发者，或者想快速搭建智能应用的创业者。",
+    "metaphor": "💡 它就像你的「智能助手」——你告诉它要做什么，它就能理解并帮你完成，就像一个24小时在线的得力帮手。",
+    "scores": {
+      "vibecoding_ease": 1,
+      "logic_moat": 1,
+      "track_fit": 1,
+      "growth_potential": 2,
+      "total": 5
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "涉及底层系统/框架，需要深度技术理解",
+      "logic_moat": "常规实现，属于常见技术方案",
+      "track_fit": "命中 1 个核心赛道：银发",
+      "growth_potential": "处于 AI/Agent 热点赛道，易获得关注",
+      "usage": "适合想用 AI 提升效率的开发者，或者想快速搭建智能应用的创业者。"
+    },
+    "stars": 274,
+    "forks": 43,
+    "language": "Python"
+  },
+  {
+    "date": "2026-04-11",
+    "id": "2026-04-11-012",
+    "title": "CodMughees / envradar",
+    "url": "https://github.com/CodMughees/envradar",
+    "raw_description": "Catch undocumented, unused, and drifting environment variables in your repo",
+    "description": "这是一个 Python 开源项目。解决特定的开发需求或提供实用功能，可以根据具体场景灵活使用。\n\n🎯 使用场景：适合有特定需求的开发者，可以根据自己的场景灵活使用。",
+    "metaphor": "💡 它就像「万能扳手」——虽然不是最耀眼的工具，但能帮你解决很多实际问题，是开发者的好帮手。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 1,
+      "track_fit": 2,
+      "growth_potential": 1,
+      "total": 6
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "中等复杂度，需理解架构设计",
+      "logic_moat": "常规实现，属于常见技术方案",
+      "track_fit": "命中 2 个核心赛道：宠物, 银发",
+      "growth_potential": "有一定市场需求，可垂直领域变现",
+      "usage": "适合有特定需求的开发者，可以根据自己的场景灵活使用。"
+    },
+    "stars": 269,
+    "forks": 4,
+    "language": "Python"
+  },
+  {
+    "date": "2026-04-11",
+    "id": "2026-04-11-013",
+    "title": "YuJunZhiXue / qwen2API",
+    "url": "https://github.com/YuJunZhiXue/qwen2API",
+    "raw_description": "A project converting the Qwen web page to an API.",
+    "description": "这是一个 Web 开发相关项目。提供网站或 Web 服务开发所需的框架、库或工具，帮助开发者快速搭建互联网应用。\n\n🎯 使用场景：适合想快速搭建网站、API 服务的开发者。",
+    "metaphor": "💡 它就像「乐高积木」——提供标准化的模块和接口，让你像搭积木一样快速搭建自己想要的网站或应用。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 0,
+      "track_fit": 0,
+      "growth_potential": 1,
+      "total": 3
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "中等复杂度，需理解架构设计",
+      "logic_moat": "简单 API 封装或客户端，技术门槛低",
+      "track_fit": "未直接命中宠物/银发/玄学/金融/教育五大变现赛道",
+      "growth_potential": "有一定市场需求，可垂直领域变现",
+      "usage": "适合想快速搭建网站、API 服务的开发者。"
+    },
+    "stars": 260,
+    "forks": 84,
+    "language": "Python"
+  },
+  {
+    "date": "2026-04-11",
+    "id": "2026-04-11-014",
+    "title": "Tencent-Hunyuan / HY-Embodied",
+    "url": "https://github.com/Tencent-Hunyuan/HY-Embodied",
+    "raw_description": "",
+    "description": "这是一个 Python 开源项目。解决特定的开发需求或提供实用功能，可以根据具体场景灵活使用。\n\n🎯 使用场景：适合有特定需求的开发者，可以根据自己的场景灵活使用。",
+    "metaphor": "💡 它就像「万能扳手」——虽然不是最耀眼的工具，但能帮你解决很多实际问题，是开发者的好帮手。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 1,
+      "track_fit": 0,
+      "growth_potential": 1,
+      "total": 4
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "中等复杂度，需理解架构设计",
+      "logic_moat": "常规实现，属于常见技术方案",
+      "track_fit": "未直接命中宠物/银发/玄学/金融/教育五大变现赛道",
+      "growth_potential": "有一定市场需求，可垂直领域变现",
+      "usage": "适合有特定需求的开发者，可以根据自己的场景灵活使用。"
+    },
+    "stars": 258,
+    "forks": 6,
+    "language": "Python"
+  },
+  {
+    "date": "2026-04-11",
+    "id": "2026-04-11-015",
+    "title": "JinGuYuan / jinguyuan-dumpling-skill",
+    "url": "https://github.com/JinGuYuan/jinguyuan-dumpling-skill",
+    "raw_description": "金谷园饺子馆 AI Skill - 北邮边上的饺子馆",
+    "description": "这是一个 AI 相关的开源项目。它利用人工智能技术，帮助用户自动化处理复杂任务，提升工作效率。可以应用于智能对话、内容生成、数据分析等场景。\n\n🎯 使用场景：适合想用 AI 提升效率的开发者，或者想快速搭建智能应用的创业者。",
+    "metaphor": "💡 它就像你的「智能助手」——你告诉它要做什么，它就能理解并帮你完成，就像一个24小时在线的得力帮手。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 1,
+      "track_fit": 0,
+      "growth_potential": 2,
+      "total": 5
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "中等复杂度，需理解架构设计",
+      "logic_moat": "常规实现，属于常见技术方案",
+      "track_fit": "未直接命中宠物/银发/玄学/金融/教育五大变现赛道",
+      "growth_potential": "处于 AI/Agent 热点赛道，易获得关注",
+      "usage": "适合想用 AI 提升效率的开发者，或者想快速搭建智能应用的创业者。"
+    },
+    "stars": 249,
+    "forks": 7,
+    "language": "Python"
   }
 ]
