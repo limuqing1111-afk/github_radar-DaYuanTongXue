@@ -28924,5 +28924,410 @@
     "stars": 163,
     "forks": 6,
     "language": "Python"
+  },
+  {
+    "date": "2026-06-04",
+    "id": "2026-06-04-001",
+    "title": "asz798838958 / aBaiAutoplus",
+    "url": "https://github.com/asz798838958/aBaiAutoplus",
+    "raw_description": "多平台 AI 账号自动注册与管理 · 协议化付款一键开通 ChatGPT Plus",
+    "description": "这是一个 AI 相关的开源项目。它利用人工智能技术，帮助用户自动化处理复杂任务，提升工作效率。可以应用于智能对话、内容生成、数据分析等场景。\n\n🎯 使用场景：适合想用 AI 提升效率的开发者，或者想快速搭建智能应用的创业者。",
+    "metaphor": "💡 它就像你的「智能助手」——你告诉它要做什么，它就能理解并帮你完成，就像一个24小时在线的得力帮手。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 1,
+      "track_fit": 1,
+      "growth_potential": 2,
+      "total": 6
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "中等复杂度，需理解架构设计",
+      "logic_moat": "常规实现，属于常见技术方案",
+      "track_fit": "命中 1 个核心赛道：教育",
+      "growth_potential": "处于 AI/Agent 热点赛道，易获得关注",
+      "usage": "适合想用 AI 提升效率的开发者，或者想快速搭建智能应用的创业者。"
+    },
+    "stars": 1402,
+    "forks": 657,
+    "language": "Python"
+  },
+  {
+    "date": "2026-06-04",
+    "id": "2026-06-04-002",
+    "title": "ClaudioDrews / memory-os",
+    "url": "https://github.com/ClaudioDrews/memory-os",
+    "raw_description": "A 7-layer memory operating system for Hermes Agent — persistent memory with Qdrant, structured facts, fabric recall, auto-curated wiki, and surgical context injection. Runs locally, any LLM provider.",
+    "description": "这是一个 AI 相关的开源项目。它利用人工智能技术，帮助用户自动化处理复杂任务，提升工作效率。可以应用于智能对话、内容生成、数据分析等场景。\n\n🎯 使用场景：适合想用 AI 提升效率的开发者，或者想快速搭建智能应用的创业者。",
+    "metaphor": "💡 它就像你的「智能助手」——你告诉它要做什么，它就能理解并帮你完成，就像一个24小时在线的得力帮手。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 1,
+      "track_fit": 1,
+      "growth_potential": 2,
+      "total": 6
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "中等复杂度，需理解架构设计",
+      "logic_moat": "常规实现，属于常见技术方案",
+      "track_fit": "命中 1 个核心赛道：金融",
+      "growth_potential": "处于 AI/Agent 热点赛道，易获得关注",
+      "usage": "适合想用 AI 提升效率的开发者，或者想快速搭建智能应用的创业者。"
+    },
+    "stars": 758,
+    "forks": 74,
+    "language": "Python"
+  },
+  {
+    "date": "2026-06-04",
+    "id": "2026-06-04-003",
+    "title": "qiuqiubuchongle-cloud / chokepoint-atlas",
+    "url": "https://github.com/qiuqiubuchongle-cloud/chokepoint-atlas",
+    "raw_description": "",
+    "description": "这是一个 Python 开源项目。解决特定的开发需求或提供实用功能，可以根据具体场景灵活使用。\n\n🎯 使用场景：适合有特定需求的开发者，可以根据自己的场景灵活使用。",
+    "metaphor": "💡 它就像「万能扳手」——虽然不是最耀眼的工具，但能帮你解决很多实际问题，是开发者的好帮手。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 1,
+      "track_fit": 1,
+      "growth_potential": 1,
+      "total": 5
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "中等复杂度，需理解架构设计",
+      "logic_moat": "常规实现，属于常见技术方案",
+      "track_fit": "命中 1 个核心赛道：宠物",
+      "growth_potential": "有一定市场需求，可垂直领域变现",
+      "usage": "适合有特定需求的开发者，可以根据自己的场景灵活使用。"
+    },
+    "stars": 528,
+    "forks": 114,
+    "language": "Python"
+  },
+  {
+    "date": "2026-06-04",
+    "id": "2026-06-04-004",
+    "title": "DannyMac180 / skills",
+    "url": "https://github.com/DannyMac180/skills",
+    "raw_description": "AI agent skills created by me: Dan McAteer",
+    "description": "这是一个 AI 相关的开源项目。它利用人工智能技术，帮助用户自动化处理复杂任务，提升工作效率。可以应用于智能对话、内容生成、数据分析等场景。\n\n🎯 使用场景：适合想用 AI 提升效率的开发者，或者想快速搭建智能应用的创业者。",
+    "metaphor": "💡 它就像你的「智能助手」——你告诉它要做什么，它就能理解并帮你完成，就像一个24小时在线的得力帮手。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 1,
+      "track_fit": 2,
+      "growth_potential": 2,
+      "total": 7
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "中等复杂度，需理解架构设计",
+      "logic_moat": "常规实现，属于常见技术方案",
+      "track_fit": "命中 2 个核心赛道：宠物, 银发",
+      "growth_potential": "处于 AI/Agent 热点赛道，易获得关注",
+      "usage": "适合想用 AI 提升效率的开发者，或者想快速搭建智能应用的创业者。"
+    },
+    "stars": 400,
+    "forks": 29,
+    "language": "Python"
+  },
+  {
+    "date": "2026-06-04",
+    "id": "2026-06-04-005",
+    "title": "tiantianGPU / reg-factory",
+    "url": "https://github.com/tiantianGPU/reg-factory",
+    "raw_description": "",
+    "description": "这是一个 Python 开源项目。解决特定的开发需求或提供实用功能，可以根据具体场景灵活使用。\n\n🎯 使用场景：适合有特定需求的开发者，可以根据自己的场景灵活使用。",
+    "metaphor": "💡 它就像「万能扳手」——虽然不是最耀眼的工具，但能帮你解决很多实际问题，是开发者的好帮手。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 1,
+      "track_fit": 0,
+      "growth_potential": 1,
+      "total": 4
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "中等复杂度，需理解架构设计",
+      "logic_moat": "常规实现，属于常见技术方案",
+      "track_fit": "未直接命中宠物/银发/玄学/金融/教育五大变现赛道",
+      "growth_potential": "有一定市场需求，可垂直领域变现",
+      "usage": "适合有特定需求的开发者，可以根据自己的场景灵活使用。"
+    },
+    "stars": 384,
+    "forks": 187,
+    "language": "Python"
+  },
+  {
+    "date": "2026-06-04",
+    "id": "2026-06-04-006",
+    "title": "VAST-AI-Research / TripoSplat",
+    "url": "https://github.com/VAST-AI-Research/TripoSplat",
+    "raw_description": "TripoSplat converts a single 2D image into high-quality and variable number of 3D Gaussians, developed by TripoAI.",
+    "description": "这是一个 AI 相关的开源项目。它利用人工智能技术，帮助用户自动化处理复杂任务，提升工作效率。可以应用于智能对话、内容生成、数据分析等场景。\n\n🎯 使用场景：适合想用 AI 提升效率的开发者，或者想快速搭建智能应用的创业者。",
+    "metaphor": "💡 它就像你的「智能助手」——你告诉它要做什么，它就能理解并帮你完成，就像一个24小时在线的得力帮手。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 1,
+      "track_fit": 0,
+      "growth_potential": 2,
+      "total": 5
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "中等复杂度，需理解架构设计",
+      "logic_moat": "常规实现，属于常见技术方案",
+      "track_fit": "未直接命中宠物/银发/玄学/金融/教育五大变现赛道",
+      "growth_potential": "处于 AI/Agent 热点赛道，易获得关注",
+      "usage": "适合想用 AI 提升效率的开发者，或者想快速搭建智能应用的创业者。"
+    },
+    "stars": 327,
+    "forks": 28,
+    "language": "Python"
+  },
+  {
+    "date": "2026-06-04",
+    "id": "2026-06-04-007",
+    "title": "bytedance / Bernini",
+    "url": "https://github.com/bytedance/Bernini",
+    "raw_description": "Bernini is a unified framework for video generation and editing that combines an MLLM-based semantic planner with a DiT-based renderer.",
+    "description": "这是一个 AI 相关的开源项目。它利用人工智能技术，帮助用户自动化处理复杂任务，提升工作效率。可以应用于智能对话、内容生成、数据分析等场景。\n\n🎯 使用场景：适合想用 AI 提升效率的开发者，或者想快速搭建智能应用的创业者。",
+    "metaphor": "💡 它就像你的「智能助手」——你告诉它要做什么，它就能理解并帮你完成，就像一个24小时在线的得力帮手。",
+    "scores": {
+      "vibecoding_ease": 1,
+      "logic_moat": 1,
+      "track_fit": 0,
+      "growth_potential": 2,
+      "total": 4
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "涉及底层系统/框架，需要深度技术理解",
+      "logic_moat": "常规实现，属于常见技术方案",
+      "track_fit": "未直接命中宠物/银发/玄学/金融/教育五大变现赛道",
+      "growth_potential": "处于 AI/Agent 热点赛道，易获得关注",
+      "usage": "适合想用 AI 提升效率的开发者，或者想快速搭建智能应用的创业者。"
+    },
+    "stars": 295,
+    "forks": 22,
+    "language": "Python"
+  },
+  {
+    "date": "2026-06-04",
+    "id": "2026-06-04-008",
+    "title": "WUBING2023 / ExamPass-Assistant",
+    "url": "https://github.com/WUBING2023/ExamPass-Assistant",
+    "raw_description": "把课堂讲义变成考试利器 一键将 PPT、Word、PDF 课件转化为结构清晰的知识清单和交互式测试题，让复习事半功倍。 适用人群：大学生、各个阶段老师、其他需要对付短期考试的朋友",
+    "description": "这是一个 Python 开源项目。解决特定的开发需求或提供实用功能，可以根据具体场景灵活使用。\n\n🎯 使用场景：适合有特定需求的开发者，可以根据自己的场景灵活使用。",
+    "metaphor": "💡 它就像「万能扳手」——虽然不是最耀眼的工具，但能帮你解决很多实际问题，是开发者的好帮手。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 1,
+      "track_fit": 2,
+      "growth_potential": 1,
+      "total": 6
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "中等复杂度，需理解架构设计",
+      "logic_moat": "常规实现，属于常见技术方案",
+      "track_fit": "命中 3 个核心赛道：宠物, 银发, 教育",
+      "growth_potential": "有一定市场需求，可垂直领域变现",
+      "usage": "适合有特定需求的开发者，可以根据自己的场景灵活使用。"
+    },
+    "stars": 277,
+    "forks": 14,
+    "language": "Python"
+  },
+  {
+    "date": "2026-06-04",
+    "id": "2026-06-04-009",
+    "title": "jd-opensource / JoyAI-Echo",
+    "url": "https://github.com/jd-opensource/JoyAI-Echo",
+    "raw_description": "JoyAI-Echo: Pushing the Frontier of Long Audio-Visual Generation",
+    "description": "这是一个 AI 相关的开源项目。它利用人工智能技术，帮助用户自动化处理复杂任务，提升工作效率。可以应用于智能对话、内容生成、数据分析等场景。\n\n🎯 使用场景：适合想用 AI 提升效率的开发者，或者想快速搭建智能应用的创业者。",
+    "metaphor": "💡 它就像你的「智能助手」——你告诉它要做什么，它就能理解并帮你完成，就像一个24小时在线的得力帮手。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 1,
+      "track_fit": 1,
+      "growth_potential": 2,
+      "total": 6
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "中等复杂度，需理解架构设计",
+      "logic_moat": "常规实现，属于常见技术方案",
+      "track_fit": "命中 1 个核心赛道：宠物",
+      "growth_potential": "处于 AI/Agent 热点赛道，易获得关注",
+      "usage": "适合想用 AI 提升效率的开发者，或者想快速搭建智能应用的创业者。"
+    },
+    "stars": 268,
+    "forks": 10,
+    "language": "Python"
+  },
+  {
+    "date": "2026-06-04",
+    "id": "2026-06-04-010",
+    "title": "S-Sigdel / vimhjkl",
+    "url": "https://github.com/S-Sigdel/vimhjkl",
+    "raw_description": "learn vim from your terminal with spaced repetition",
+    "description": "这是一个命令行工具。通过终端命令就能快速使用，适合程序员和开发者提高工作效率，通常体积小巧但功能强大。\n\n🎯 使用场景：适合程序员和开发者，喜欢用命令行提高效率的人。",
+    "metaphor": "💡 它就像「瑞士军刀」——小巧便携，但集成了多种实用功能，是程序员工具箱里的必备利器。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 1,
+      "track_fit": 1,
+      "growth_potential": 1,
+      "total": 5
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "中等复杂度，需理解架构设计",
+      "logic_moat": "常规实现，属于常见技术方案",
+      "track_fit": "命中 1 个核心赛道：宠物",
+      "growth_potential": "有一定市场需求，可垂直领域变现",
+      "usage": "适合程序员和开发者，喜欢用命令行提高效率的人。"
+    },
+    "stars": 267,
+    "forks": 4,
+    "language": "Python"
+  },
+  {
+    "date": "2026-06-04",
+    "id": "2026-06-04-011",
+    "title": "OnlyTerp / UltraCode-Shim",
+    "url": "https://github.com/OnlyTerp/UltraCode-Shim",
+    "raw_description": "Give Claude Code's ultracode mode to ANY model you already pay for. A tiny local proxy + one config.json. Point your AI at AGENTS.md and it sets itself up.",
+    "description": "这是一个 AI 相关的开源项目。它利用人工智能技术，帮助用户自动化处理复杂任务，提升工作效率。可以应用于智能对话、内容生成、数据分析等场景。\n\n🎯 使用场景：适合想用 AI 提升效率的开发者，或者想快速搭建智能应用的创业者。",
+    "metaphor": "💡 它就像你的「智能助手」——你告诉它要做什么，它就能理解并帮你完成，就像一个24小时在线的得力帮手。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 1,
+      "track_fit": 0,
+      "growth_potential": 2,
+      "total": 5
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "中等复杂度，需理解架构设计",
+      "logic_moat": "常规实现，属于常见技术方案",
+      "track_fit": "未直接命中宠物/银发/玄学/金融/教育五大变现赛道",
+      "growth_potential": "处于 AI/Agent 热点赛道，易获得关注",
+      "usage": "适合想用 AI 提升效率的开发者，或者想快速搭建智能应用的创业者。"
+    },
+    "stars": 249,
+    "forks": 18,
+    "language": "Python"
+  },
+  {
+    "date": "2026-06-04",
+    "id": "2026-06-04-012",
+    "title": "johnmiddleton12 / my-whoop",
+    "url": "https://github.com/johnmiddleton12/my-whoop",
+    "raw_description": "",
+    "description": "这是一个 Python 开源项目。解决特定的开发需求或提供实用功能，可以根据具体场景灵活使用。\n\n🎯 使用场景：适合有特定需求的开发者，可以根据自己的场景灵活使用。",
+    "metaphor": "💡 它就像「万能扳手」——虽然不是最耀眼的工具，但能帮你解决很多实际问题，是开发者的好帮手。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 1,
+      "track_fit": 2,
+      "growth_potential": 1,
+      "total": 6
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "中等复杂度，需理解架构设计",
+      "logic_moat": "常规实现，属于常见技术方案",
+      "track_fit": "命中 2 个核心赛道：宠物, 教育",
+      "growth_potential": "有一定市场需求，可垂直领域变现",
+      "usage": "适合有特定需求的开发者，可以根据自己的场景灵活使用。"
+    },
+    "stars": 241,
+    "forks": 121,
+    "language": "Python"
+  },
+  {
+    "date": "2026-06-04",
+    "id": "2026-06-04-013",
+    "title": "V0id-v2 / Void-Tools-v2.0",
+    "url": "https://github.com/V0id-v2/Void-Tools-v2.0",
+    "raw_description": "Python terminal multitool — OSINT, Discord, web & network utilities. Rich TUI, 13 themes, remote updates. Educational use only.",
+    "description": "这是一个命令行工具。通过终端命令就能快速使用，适合程序员和开发者提高工作效率，通常体积小巧但功能强大。\n\n🎯 使用场景：适合程序员和开发者，喜欢用命令行提高效率的人。",
+    "metaphor": "💡 它就像「瑞士军刀」——小巧便携，但集成了多种实用功能，是程序员工具箱里的必备利器。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 1,
+      "track_fit": 2,
+      "growth_potential": 1,
+      "total": 6
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "中等复杂度，需理解架构设计",
+      "logic_moat": "常规实现，属于常见技术方案",
+      "track_fit": "命中 2 个核心赛道：宠物, 教育",
+      "growth_potential": "有一定市场需求，可垂直领域变现",
+      "usage": "适合程序员和开发者，喜欢用命令行提高效率的人。"
+    },
+    "stars": 232,
+    "forks": 0,
+    "language": "Python"
+  },
+  {
+    "date": "2026-06-04",
+    "id": "2026-06-04-014",
+    "title": "dsta022 / lerobot-rgb-rgbd-vla-dataset-toolkit",
+    "url": "https://github.com/dsta022/lerobot-rgb-rgbd-vla-dataset-toolkit",
+    "raw_description": "Toolkit for collecting, merging, auditing, visualizing, and publishing RGB/RGB-D LeRobot VLA datasets.",
+    "description": "这是一个自动化工具项目。它能够帮你自动完成重复性工作，比如定时任务、数据抓取、流程自动化等，节省大量手动操作时间。\n\n🎯 使用场景：适合想节省时间、让电脑帮你干活的人，特别是需要处理重复性任务的场景。",
+    "metaphor": "💡 它就像「自动洗衣机」——你把脏衣服丢进去，设定好程序，它自动帮你洗干净，你完全不用盯着。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 1,
+      "track_fit": 0,
+      "growth_potential": 0,
+      "total": 3
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "中等复杂度，需理解架构设计",
+      "logic_moat": "常规实现，属于常见技术方案",
+      "track_fit": "未直接命中宠物/银发/玄学/金融/教育五大变现赛道",
+      "growth_potential": "基础设施类工具，传播和变现潜力有限",
+      "usage": "适合想节省时间、让电脑帮你干活的人，特别是需要处理重复性任务的场景。"
+    },
+    "stars": 211,
+    "forks": 71,
+    "language": "Python"
+  },
+  {
+    "date": "2026-06-04",
+    "id": "2026-06-04-015",
+    "title": "marekkowalczyk / breathe-cli",
+    "url": "https://github.com/marekkowalczyk/breathe-cli",
+    "raw_description": "Paced resonance breathing in your terminal",
+    "description": "这是一个命令行工具。通过终端命令就能快速使用，适合程序员和开发者提高工作效率，通常体积小巧但功能强大。\n\n🎯 使用场景：适合程序员和开发者，喜欢用命令行提高效率的人。",
+    "metaphor": "💡 它就像「瑞士军刀」——小巧便携，但集成了多种实用功能，是程序员工具箱里的必备利器。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 1,
+      "track_fit": 1,
+      "growth_potential": 1,
+      "total": 5
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "中等复杂度，需理解架构设计",
+      "logic_moat": "常规实现，属于常见技术方案",
+      "track_fit": "命中 1 个核心赛道：教育",
+      "growth_potential": "有一定市场需求，可垂直领域变现",
+      "usage": "适合程序员和开发者，喜欢用命令行提高效率的人。"
+    },
+    "stars": 196,
+    "forks": 8,
+    "language": "Python"
   }
 ]
