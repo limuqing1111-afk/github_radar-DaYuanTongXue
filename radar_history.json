@@ -41479,5 +41479,410 @@
     "stars": 132,
     "forks": 0,
     "language": "Python"
+  },
+  {
+    "date": "2026-07-05",
+    "id": "2026-07-05-001",
+    "title": "HUANGCHIHHUNGLeo / claude-real-video",
+    "url": "https://github.com/HUANGCHIHHUNGLeo/claude-real-video",
+    "raw_description": "Let Claude (or any LLM) actually watch a video — scene-aware, deduplicated frames + transcript, from a URL or local file. Runs locally, MIT.",
+    "description": "这是一个 AI 相关的开源项目。它利用人工智能技术，帮助用户自动化处理复杂任务，提升工作效率。可以应用于智能对话、内容生成、数据分析等场景。\n\n🎯 使用场景：适合想用 AI 提升效率的开发者，或者想快速搭建智能应用的创业者。",
+    "metaphor": "💡 它就像你的「智能助手」——你告诉它要做什么，它就能理解并帮你完成，就像一个24小时在线的得力帮手。",
+    "scores": {
+      "vibecoding_ease": 3,
+      "logic_moat": 1,
+      "track_fit": 2,
+      "growth_potential": 2,
+      "total": 8
+    },
+    "is_top": true,
+    "score_reasons": {
+      "vibecoding_ease": "纯提示词/简单脚本，一日内可复刻 MVP",
+      "logic_moat": "常规实现，属于常见技术方案",
+      "track_fit": "命中 2 个核心赛道：宠物, 银发",
+      "growth_potential": "处于 AI/Agent 热点赛道，易获得关注",
+      "usage": "适合想用 AI 提升效率的开发者，或者想快速搭建智能应用的创业者。"
+    },
+    "stars": 745,
+    "forks": 38,
+    "language": "Python"
+  },
+  {
+    "date": "2026-07-05",
+    "id": "2026-07-05-002",
+    "title": "jmerelnyc / Talos",
+    "url": "https://github.com/jmerelnyc/Talos",
+    "raw_description": "GPU worker client for the Talos network. Pairs with your Talos account, serves open-model inference jobs over a WebSocket, and reports uptime for payouts.",
+    "description": "这是一个 AI 相关的开源项目。它利用人工智能技术，帮助用户自动化处理复杂任务，提升工作效率。可以应用于智能对话、内容生成、数据分析等场景。\n\n🎯 使用场景：适合想用 AI 提升效率的开发者，或者想快速搭建智能应用的创业者。",
+    "metaphor": "💡 它就像你的「智能助手」——你告诉它要做什么，它就能理解并帮你完成，就像一个24小时在线的得力帮手。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 0,
+      "track_fit": 1,
+      "growth_potential": 2,
+      "total": 5
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "中等复杂度，需理解架构设计",
+      "logic_moat": "简单 API 封装或客户端，技术门槛低",
+      "track_fit": "命中 1 个核心赛道：宠物",
+      "growth_potential": "处于 AI/Agent 热点赛道，易获得关注",
+      "usage": "适合想用 AI 提升效率的开发者，或者想快速搭建智能应用的创业者。"
+    },
+    "stars": 585,
+    "forks": 12,
+    "language": "Python"
+  },
+  {
+    "date": "2026-07-05",
+    "id": "2026-07-05-003",
+    "title": "TianhangZhuzth / Fundamental-Ava",
+    "url": "https://github.com/TianhangZhuzth/Fundamental-Ava",
+    "raw_description": "Build digital human beings — autonomous, collaborative, and socially intelligent agents. FNzgGxU31RWiDgLr3GvxxSa42nRntvZNSG6aBMQ1pump",
+    "description": "这是一个 AI 相关的开源项目。它利用人工智能技术，帮助用户自动化处理复杂任务，提升工作效率。可以应用于智能对话、内容生成、数据分析等场景。\n\n🎯 使用场景：适合想用 AI 提升效率的开发者，或者想快速搭建智能应用的创业者。",
+    "metaphor": "💡 它就像你的「智能助手」——你告诉它要做什么，它就能理解并帮你完成，就像一个24小时在线的得力帮手。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 1,
+      "track_fit": 2,
+      "growth_potential": 2,
+      "total": 7
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "中等复杂度，需理解架构设计",
+      "logic_moat": "常规实现，属于常见技术方案",
+      "track_fit": "命中 2 个核心赛道：宠物, 银发",
+      "growth_potential": "处于 AI/Agent 热点赛道，易获得关注",
+      "usage": "适合想用 AI 提升效率的开发者，或者想快速搭建智能应用的创业者。"
+    },
+    "stars": 523,
+    "forks": 53,
+    "language": "Python"
+  },
+  {
+    "date": "2026-07-05",
+    "id": "2026-07-05-004",
+    "title": "asz798838958 / FrciblyK12",
+    "url": "https://github.com/asz798838958/FrciblyK12",
+    "raw_description": "多线程全自动注册free 强上K12空间",
+    "description": "这是一个 Python 开源项目。解决特定的开发需求或提供实用功能，可以根据具体场景灵活使用。\n\n🎯 使用场景：适合有特定需求的开发者，可以根据自己的场景灵活使用。",
+    "metaphor": "💡 它就像「万能扳手」——虽然不是最耀眼的工具，但能帮你解决很多实际问题，是开发者的好帮手。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 1,
+      "track_fit": 0,
+      "growth_potential": 1,
+      "total": 4
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "中等复杂度，需理解架构设计",
+      "logic_moat": "常规实现，属于常见技术方案",
+      "track_fit": "未直接命中宠物/银发/玄学/金融/教育五大变现赛道",
+      "growth_potential": "有一定市场需求，可垂直领域变现",
+      "usage": "适合有特定需求的开发者，可以根据自己的场景灵活使用。"
+    },
+    "stars": 413,
+    "forks": 158,
+    "language": "Python"
+  },
+  {
+    "date": "2026-07-05",
+    "id": "2026-07-05-005",
+    "title": "lingbol088-spec / reverse-flow-skill",
+    "url": "https://github.com/lingbol088-spec/reverse-flow-skill",
+    "raw_description": "面向 AI Agent / Codex 的本地 CTF 逆向工程流程技能。加载后通过“真心为你”进入逆向模式，默认在本地沙盒、CTF、crackme、wargame 或训练靶场环境中工作，按“分析 → 报告 → 逆向 → 深度逆向 → 漏洞研判 → 用户选择下一步”的流程推进。",
+    "description": "这是一个 AI 相关的开源项目。它利用人工智能技术，帮助用户自动化处理复杂任务，提升工作效率。可以应用于智能对话、内容生成、数据分析等场景。\n\n🎯 使用场景：适合想用 AI 提升效率的开发者，或者想快速搭建智能应用的创业者。",
+    "metaphor": "💡 它就像你的「智能助手」——你告诉它要做什么，它就能理解并帮你完成，就像一个24小时在线的得力帮手。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 1,
+      "track_fit": 0,
+      "growth_potential": 2,
+      "total": 5
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "中等复杂度，需理解架构设计",
+      "logic_moat": "常规实现，属于常见技术方案",
+      "track_fit": "未直接命中宠物/银发/玄学/金融/教育五大变现赛道",
+      "growth_potential": "处于 AI/Agent 热点赛道，易获得关注",
+      "usage": "适合想用 AI 提升效率的开发者，或者想快速搭建智能应用的创业者。"
+    },
+    "stars": 349,
+    "forks": 189,
+    "language": "Python"
+  },
+  {
+    "date": "2026-07-05",
+    "id": "2026-07-05-006",
+    "title": "Evolink-AI / Awesome-Blender-Seedance-Workflow-Usecases",
+    "url": "https://github.com/Evolink-AI/Awesome-Blender-Seedance-Workflow-Usecases",
+    "raw_description": "Curated Blender + Seedance workflows for AI filmmaking: previs, camera control, Blender MCP, reference video, and agent-guided use cases.",
+    "description": "这是一个 AI 相关的开源项目。它利用人工智能技术，帮助用户自动化处理复杂任务，提升工作效率。可以应用于智能对话、内容生成、数据分析等场景。\n\n🎯 使用场景：适合想用 AI 提升效率的开发者，或者想快速搭建智能应用的创业者。",
+    "metaphor": "💡 它就像你的「智能助手」——你告诉它要做什么，它就能理解并帮你完成，就像一个24小时在线的得力帮手。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 2,
+      "track_fit": 0,
+      "growth_potential": 2,
+      "total": 6
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "中等复杂度，需理解架构设计",
+      "logic_moat": "有特定的业务逻辑设计，需理解领域知识",
+      "track_fit": "未直接命中宠物/银发/玄学/金融/教育五大变现赛道",
+      "growth_potential": "处于 AI/Agent 热点赛道，易获得关注",
+      "usage": "适合想用 AI 提升效率的开发者，或者想快速搭建智能应用的创业者。"
+    },
+    "stars": 298,
+    "forks": 24,
+    "language": "Python"
+  },
+  {
+    "date": "2026-07-05",
+    "id": "2026-07-05-007",
+    "title": "akihitohyh / chatgpt-register-sub2api",
+    "url": "https://github.com/akihitohyh/chatgpt-register-sub2api",
+    "raw_description": "",
+    "description": "这是一个 AI 相关的开源项目。它利用人工智能技术，帮助用户自动化处理复杂任务，提升工作效率。可以应用于智能对话、内容生成、数据分析等场景。\n\n🎯 使用场景：适合想用 AI 提升效率的开发者，或者想快速搭建智能应用的创业者。",
+    "metaphor": "💡 它就像你的「智能助手」——你告诉它要做什么，它就能理解并帮你完成，就像一个24小时在线的得力帮手。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 1,
+      "track_fit": 0,
+      "growth_potential": 2,
+      "total": 5
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "中等复杂度，需理解架构设计",
+      "logic_moat": "常规实现，属于常见技术方案",
+      "track_fit": "未直接命中宠物/银发/玄学/金融/教育五大变现赛道",
+      "growth_potential": "处于 AI/Agent 热点赛道，易获得关注",
+      "usage": "适合想用 AI 提升效率的开发者，或者想快速搭建智能应用的创业者。"
+    },
+    "stars": 188,
+    "forks": 89,
+    "language": "Python"
+  },
+  {
+    "date": "2026-07-05",
+    "id": "2026-07-05-008",
+    "title": "lzh-phd / topic-feasibility-screener",
+    "url": "https://github.com/lzh-phd/topic-feasibility-screener",
+    "raw_description": "有大致的想法不知道怎么选题？只要给这个skills扔点数据，他能自动帮你延伸出多个idea，检索文献，并帮你跑初步回归验证实证可行性和理论可行性，最后打分排名，让你的科研第一步不再难堪！",
+    "description": "这是一个 Python 开源项目。解决特定的开发需求或提供实用功能，可以根据具体场景灵活使用。\n\n🎯 使用场景：适合有特定需求的开发者，可以根据自己的场景灵活使用。",
+    "metaphor": "💡 它就像「万能扳手」——虽然不是最耀眼的工具，但能帮你解决很多实际问题，是开发者的好帮手。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 1,
+      "track_fit": 2,
+      "growth_potential": 1,
+      "total": 6
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "中等复杂度，需理解架构设计",
+      "logic_moat": "常规实现，属于常见技术方案",
+      "track_fit": "命中 2 个核心赛道：宠物, 金融",
+      "growth_potential": "有一定市场需求，可垂直领域变现",
+      "usage": "适合有特定需求的开发者，可以根据自己的场景灵活使用。"
+    },
+    "stars": 171,
+    "forks": 6,
+    "language": "Python"
+  },
+  {
+    "date": "2026-07-05",
+    "id": "2026-07-05-009",
+    "title": "rolekkona / bghira-bark",
+    "url": "https://github.com/rolekkona/bghira-bark",
+    "raw_description": "A 🍴 of a 🔊 Text-Prompted Generative Audio Model",
+    "description": "这是一个 AI 相关的开源项目。它利用人工智能技术，帮助用户自动化处理复杂任务，提升工作效率。可以应用于智能对话、内容生成、数据分析等场景。\n\n🎯 使用场景：适合想用 AI 提升效率的开发者，或者想快速搭建智能应用的创业者。",
+    "metaphor": "💡 它就像你的「智能助手」——你告诉它要做什么，它就能理解并帮你完成，就像一个24小时在线的得力帮手。",
+    "scores": {
+      "vibecoding_ease": 3,
+      "logic_moat": 1,
+      "track_fit": 0,
+      "growth_potential": 1,
+      "total": 5
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "纯提示词/简单脚本，一日内可复刻 MVP",
+      "logic_moat": "常规实现，属于常见技术方案",
+      "track_fit": "未直接命中宠物/银发/玄学/金融/教育五大变现赛道",
+      "growth_potential": "有一定市场需求，可垂直领域变现",
+      "usage": "适合想用 AI 提升效率的开发者，或者想快速搭建智能应用的创业者。"
+    },
+    "stars": 147,
+    "forks": 2005,
+    "language": "Python"
+  },
+  {
+    "date": "2026-07-05",
+    "id": "2026-07-05-010",
+    "title": "KorroAi / onklaud-5",
+    "url": "https://github.com/KorroAi/onklaud-5",
+    "raw_description": "Pipelines beat models. A multi-model verification pipeline for code quality. 57% of tasks resolved at /usr/bin/bash.",
+    "description": "这是一个 AI 相关的开源项目。它利用人工智能技术，帮助用户自动化处理复杂任务，提升工作效率。可以应用于智能对话、内容生成、数据分析等场景。\n\n🎯 使用场景：适合想用 AI 提升效率的开发者，或者想快速搭建智能应用的创业者。",
+    "metaphor": "💡 它就像你的「智能助手」——你告诉它要做什么，它就能理解并帮你完成，就像一个24小时在线的得力帮手。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 2,
+      "track_fit": 2,
+      "growth_potential": 1,
+      "total": 7
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "中等复杂度，需理解架构设计",
+      "logic_moat": "有特定的业务逻辑设计，需理解领域知识",
+      "track_fit": "命中 3 个核心赛道：宠物, 银发, 教育",
+      "growth_potential": "有一定市场需求，可垂直领域变现",
+      "usage": "适合想用 AI 提升效率的开发者，或者想快速搭建智能应用的创业者。"
+    },
+    "stars": 145,
+    "forks": 16,
+    "language": "Python"
+  },
+  {
+    "date": "2026-07-05",
+    "id": "2026-07-05-011",
+    "title": "Jia-Ethan / claude-keysmith",
+    "url": "https://github.com/Jia-Ethan/claude-keysmith",
+    "raw_description": "Claude Code CLAUDE.md import-block installer for local instruction files",
+    "description": "这是一个 AI 相关的开源项目。它利用人工智能技术，帮助用户自动化处理复杂任务，提升工作效率。可以应用于智能对话、内容生成、数据分析等场景。\n\n🎯 使用场景：适合想用 AI 提升效率的开发者，或者想快速搭建智能应用的创业者。",
+    "metaphor": "💡 它就像你的「智能助手」——你告诉它要做什么，它就能理解并帮你完成，就像一个24小时在线的得力帮手。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 1,
+      "track_fit": 1,
+      "growth_potential": 2,
+      "total": 6
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "中等复杂度，需理解架构设计",
+      "logic_moat": "常规实现，属于常见技术方案",
+      "track_fit": "命中 1 个核心赛道：银发",
+      "growth_potential": "处于 AI/Agent 热点赛道，易获得关注",
+      "usage": "适合想用 AI 提升效率的开发者，或者想快速搭建智能应用的创业者。"
+    },
+    "stars": 142,
+    "forks": 25,
+    "language": "Python"
+  },
+  {
+    "date": "2026-07-05",
+    "id": "2026-07-05-012",
+    "title": "Sophomoresty / gemini-search-mcp",
+    "url": "https://github.com/Sophomoresty/gemini-search-mcp",
+    "raw_description": "Free MCP server for web search powered by Google AI Mode (Gemini). Unlimited, no API key.",
+    "description": "这是一个 AI 相关的开源项目。它利用人工智能技术，帮助用户自动化处理复杂任务，提升工作效率。可以应用于智能对话、内容生成、数据分析等场景。\n\n🎯 使用场景：适合想用 AI 提升效率的开发者，或者想快速搭建智能应用的创业者。",
+    "metaphor": "💡 它就像你的「智能助手」——你告诉它要做什么，它就能理解并帮你完成，就像一个24小时在线的得力帮手。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 0,
+      "track_fit": 0,
+      "growth_potential": 2,
+      "total": 4
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "中等复杂度，需理解架构设计",
+      "logic_moat": "简单 API 封装或客户端，技术门槛低",
+      "track_fit": "未直接命中宠物/银发/玄学/金融/教育五大变现赛道",
+      "growth_potential": "处于 AI/Agent 热点赛道，易获得关注",
+      "usage": "适合想用 AI 提升效率的开发者，或者想快速搭建智能应用的创业者。"
+    },
+    "stars": 138,
+    "forks": 24,
+    "language": "Python"
+  },
+  {
+    "date": "2026-07-05",
+    "id": "2026-07-05-013",
+    "title": "kocasariumut / FaceAnything",
+    "url": "https://github.com/kocasariumut/FaceAnything",
+    "raw_description": "",
+    "description": "这是一个 Python 开源项目。解决特定的开发需求或提供实用功能，可以根据具体场景灵活使用。\n\n🎯 使用场景：适合有特定需求的开发者，可以根据自己的场景灵活使用。",
+    "metaphor": "💡 它就像「万能扳手」——虽然不是最耀眼的工具，但能帮你解决很多实际问题，是开发者的好帮手。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 1,
+      "track_fit": 0,
+      "growth_potential": 1,
+      "total": 4
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "中等复杂度，需理解架构设计",
+      "logic_moat": "常规实现，属于常见技术方案",
+      "track_fit": "未直接命中宠物/银发/玄学/金融/教育五大变现赛道",
+      "growth_potential": "有一定市场需求，可垂直领域变现",
+      "usage": "适合有特定需求的开发者，可以根据自己的场景灵活使用。"
+    },
+    "stars": 135,
+    "forks": 14,
+    "language": "Python"
+  },
+  {
+    "date": "2026-07-05",
+    "id": "2026-07-05-014",
+    "title": "Oft3r / agentic-trading-desk",
+    "url": "https://github.com/Oft3r/agentic-trading-desk",
+    "raw_description": "AI-assisted trading desk for short-term technical analysis on stocks & ETFs via Robinhood MCP. Deterministic Python engines score each asset on a three-pillar framework (Trend · Momentum · Macro-Sentiment) using EMA, RSI, MACD, TRIX & Bollinger Bands. The AI fetches data; the scripts compute; the human approves every order.",
+    "description": "这是一个 AI 相关的开源项目。它利用人工智能技术，帮助用户自动化处理复杂任务，提升工作效率。可以应用于智能对话、内容生成、数据分析等场景。\n\n🎯 使用场景：适合想用 AI 提升效率的开发者，或者想快速搭建智能应用的创业者。",
+    "metaphor": "💡 它就像你的「智能助手」——你告诉它要做什么，它就能理解并帮你完成，就像一个24小时在线的得力帮手。",
+    "scores": {
+      "vibecoding_ease": 3,
+      "logic_moat": 1,
+      "track_fit": 2,
+      "growth_potential": 2,
+      "total": 8
+    },
+    "is_top": true,
+    "score_reasons": {
+      "vibecoding_ease": "纯提示词/简单脚本，一日内可复刻 MVP",
+      "logic_moat": "常规实现，属于常见技术方案",
+      "track_fit": "命中 3 个核心赛道：宠物, 银发, 金融",
+      "growth_potential": "具备直接变现场景或自动化赚钱能力",
+      "usage": "适合想用 AI 提升效率的开发者，或者想快速搭建智能应用的创业者。"
+    },
+    "stars": 123,
+    "forks": 24,
+    "language": "Python"
+  },
+  {
+    "date": "2026-07-05",
+    "id": "2026-07-05-015",
+    "title": "100yenadmin / fable-token-saving-skills-orchestrator",
+    "url": "https://github.com/100yenadmin/fable-token-saving-skills-orchestrator",
+    "raw_description": "🧚 Fable-first Claude orchestration kit for token-saving lane routing, dense turns, and cache-preserving wait discipline.",
+    "description": "这是一个 AI 相关的开源项目。它利用人工智能技术，帮助用户自动化处理复杂任务，提升工作效率。可以应用于智能对话、内容生成、数据分析等场景。\n\n🎯 使用场景：适合想用 AI 提升效率的开发者，或者想快速搭建智能应用的创业者。",
+    "metaphor": "💡 它就像你的「智能助手」——你告诉它要做什么，它就能理解并帮你完成，就像一个24小时在线的得力帮手。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 2,
+      "track_fit": 1,
+      "growth_potential": 2,
+      "total": 7
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "中等复杂度，需理解架构设计",
+      "logic_moat": "有特定的业务逻辑设计，需理解领域知识",
+      "track_fit": "命中 1 个核心赛道：银发",
+      "growth_potential": "处于 AI/Agent 热点赛道，易获得关注",
+      "usage": "适合想用 AI 提升效率的开发者，或者想快速搭建智能应用的创业者。"
+    },
+    "stars": 121,
+    "forks": 0,
+    "language": "Python"
   }
 ]
