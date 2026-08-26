@@ -62539,5 +62539,410 @@
     "stars": 141,
     "forks": 4,
     "language": "Python"
+  },
+  {
+    "date": "2026-08-26",
+    "id": "2026-08-26-001",
+    "title": "cclank / lanshu-create-ai-presenter-video",
+    "url": "https://github.com/cclank/lanshu-create-ai-presenter-video",
+    "raw_description": "Provider-neutral Codex Skill for producing verified AI presenter videos from a script and an authorized presenter image.",
+    "description": "这是一个 AI 相关的开源项目。它利用人工智能技术，帮助用户自动化处理复杂任务，提升工作效率。可以应用于智能对话、内容生成、数据分析等场景。\n\n🎯 使用场景：适合想用 AI 提升效率的开发者，或者想快速搭建智能应用的创业者。",
+    "metaphor": "💡 它就像你的「智能助手」——你告诉它要做什么，它就能理解并帮你完成，就像一个24小时在线的得力帮手。",
+    "scores": {
+      "vibecoding_ease": 3,
+      "logic_moat": 1,
+      "track_fit": 0,
+      "growth_potential": 2,
+      "total": 6
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "纯提示词/简单脚本，一日内可复刻 MVP",
+      "logic_moat": "常规实现，属于常见技术方案",
+      "track_fit": "未直接命中宠物/银发/玄学/金融/教育五大变现赛道",
+      "growth_potential": "处于 AI/Agent 热点赛道，易获得关注",
+      "usage": "适合想用 AI 提升效率的开发者，或者想快速搭建智能应用的创业者。"
+    },
+    "stars": 913,
+    "forks": 165,
+    "language": "Python"
+  },
+  {
+    "date": "2026-08-26",
+    "id": "2026-08-26-002",
+    "title": "ShadowAqueduct / watermark-remover",
+    "url": "https://github.com/ShadowAqueduct/watermark-remover",
+    "raw_description": "Purge multi-vendor AI watermarks: clean Unicode text, apply statistical rewrite hooks, and clear C2PA plus metadata from PNG, JPEG, SVG, PDF, DOCX, HTML, and MD.",
+    "description": "这是一个 AI 相关的开源项目。它利用人工智能技术，帮助用户自动化处理复杂任务，提升工作效率。可以应用于智能对话、内容生成、数据分析等场景。\n\n🎯 使用场景：适合想用 AI 提升效率的开发者，或者想快速搭建智能应用的创业者。",
+    "metaphor": "💡 它就像你的「智能助手」——你告诉它要做什么，它就能理解并帮你完成，就像一个24小时在线的得力帮手。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 1,
+      "track_fit": 0,
+      "growth_potential": 2,
+      "total": 5
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "中等复杂度，需理解架构设计",
+      "logic_moat": "常规实现，属于常见技术方案",
+      "track_fit": "未直接命中宠物/银发/玄学/金融/教育五大变现赛道",
+      "growth_potential": "处于 AI/Agent 热点赛道，易获得关注",
+      "usage": "适合想用 AI 提升效率的开发者，或者想快速搭建智能应用的创业者。"
+    },
+    "stars": 791,
+    "forks": 75,
+    "language": "Python"
+  },
+  {
+    "date": "2026-08-26",
+    "id": "2026-08-26-003",
+    "title": "ApodexAI / FrontierAgent",
+    "url": "https://github.com/ApodexAI/FrontierAgent",
+    "raw_description": "🧩 FrontierAgent, our agent framework, open-sourced alongside it — native command-line TUI, ReAct and Agent Team modes, one command on macOS and Linux, no preinstall, no hard Docker dependency.",
+    "description": "这是一个 AI 相关的开源项目。它利用人工智能技术，帮助用户自动化处理复杂任务，提升工作效率。可以应用于智能对话、内容生成、数据分析等场景。\n\n🎯 使用场景：适合想用 AI 提升效率的开发者，或者想快速搭建智能应用的创业者。",
+    "metaphor": "💡 它就像你的「智能助手」——你告诉它要做什么，它就能理解并帮你完成，就像一个24小时在线的得力帮手。",
+    "scores": {
+      "vibecoding_ease": 1,
+      "logic_moat": 1,
+      "track_fit": 0,
+      "growth_potential": 2,
+      "total": 4
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "涉及底层系统/框架，需要深度技术理解",
+      "logic_moat": "常规实现，属于常见技术方案",
+      "track_fit": "未直接命中宠物/银发/玄学/金融/教育五大变现赛道",
+      "growth_potential": "处于 AI/Agent 热点赛道，易获得关注",
+      "usage": "适合想用 AI 提升效率的开发者，或者想快速搭建智能应用的创业者。"
+    },
+    "stars": 565,
+    "forks": 57,
+    "language": "Python"
+  },
+  {
+    "date": "2026-08-26",
+    "id": "2026-08-26-004",
+    "title": "xdreizein666 / getcontact-cli",
+    "url": "https://github.com/xdreizein666/getcontact-cli",
+    "raw_description": "GetContact CLI adalah project Python untuk melakukan lookup nomor telepon lewat API GetContact, tanpa aplikasi Android dan tanpa browser.",
+    "description": "这是一个命令行工具。通过终端命令就能快速使用，适合程序员和开发者提高工作效率，通常体积小巧但功能强大。\n\n🎯 使用场景：适合程序员和开发者，喜欢用命令行提高效率的人。",
+    "metaphor": "💡 它就像「瑞士军刀」——小巧便携，但集成了多种实用功能，是程序员工具箱里的必备利器。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 0,
+      "track_fit": 2,
+      "growth_potential": 1,
+      "total": 5
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "中等复杂度，需理解架构设计",
+      "logic_moat": "简单 API 封装或客户端，技术门槛低",
+      "track_fit": "命中 3 个核心赛道：宠物, 银发, 教育",
+      "growth_potential": "有一定市场需求，可垂直领域变现",
+      "usage": "适合程序员和开发者，喜欢用命令行提高效率的人。"
+    },
+    "stars": 487,
+    "forks": 118,
+    "language": "Python"
+  },
+  {
+    "date": "2026-08-26",
+    "id": "2026-08-26-005",
+    "title": "RobertGolds1 / Gradient",
+    "url": "https://github.com/RobertGolds1/Gradient",
+    "raw_description": "Gradient",
+    "description": "这是一个 Python 开源项目。解决特定的开发需求或提供实用功能，可以根据具体场景灵活使用。\n\n🎯 使用场景：适合有特定需求的开发者，可以根据自己的场景灵活使用。",
+    "metaphor": "💡 它就像「万能扳手」——虽然不是最耀眼的工具，但能帮你解决很多实际问题，是开发者的好帮手。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 1,
+      "track_fit": 1,
+      "growth_potential": 1,
+      "total": 5
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "中等复杂度，需理解架构设计",
+      "logic_moat": "常规实现，属于常见技术方案",
+      "track_fit": "命中 1 个核心赛道：教育",
+      "growth_potential": "有一定市场需求，可垂直领域变现",
+      "usage": "适合有特定需求的开发者，可以根据自己的场景灵活使用。"
+    },
+    "stars": 391,
+    "forks": 14,
+    "language": "Python"
+  },
+  {
+    "date": "2026-08-26",
+    "id": "2026-08-26-006",
+    "title": "LB623 / no-negative-echo",
+    "url": "https://github.com/LB623/no-negative-echo",
+    "raw_description": "让 Codex 根据最终结果生成标题、注释、commit 和 PR，减少被否决方案在交付中的残留。",
+    "description": "这是一个 Python 开源项目。解决特定的开发需求或提供实用功能，可以根据具体场景灵活使用。\n\n🎯 使用场景：适合有特定需求的开发者，可以根据自己的场景灵活使用。",
+    "metaphor": "💡 它就像「万能扳手」——虽然不是最耀眼的工具，但能帮你解决很多实际问题，是开发者的好帮手。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 1,
+      "track_fit": 1,
+      "growth_potential": 1,
+      "total": 5
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "中等复杂度，需理解架构设计",
+      "logic_moat": "常规实现，属于常见技术方案",
+      "track_fit": "命中 1 个核心赛道：宠物",
+      "growth_potential": "有一定市场需求，可垂直领域变现",
+      "usage": "适合有特定需求的开发者，可以根据自己的场景灵活使用。"
+    },
+    "stars": 386,
+    "forks": 11,
+    "language": "Python"
+  },
+  {
+    "date": "2026-08-26",
+    "id": "2026-08-26-007",
+    "title": "fzakaria / selfdb",
+    "url": "https://github.com/fzakaria/selfdb",
+    "raw_description": "",
+    "description": "这是一个 Python 开源项目。解决特定的开发需求或提供实用功能，可以根据具体场景灵活使用。\n\n🎯 使用场景：适合有特定需求的开发者，可以根据自己的场景灵活使用。",
+    "metaphor": "💡 它就像「万能扳手」——虽然不是最耀眼的工具，但能帮你解决很多实际问题，是开发者的好帮手。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 1,
+      "track_fit": 2,
+      "growth_potential": 1,
+      "total": 6
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "中等复杂度，需理解架构设计",
+      "logic_moat": "常规实现，属于常见技术方案",
+      "track_fit": "命中 2 个核心赛道：宠物, 金融",
+      "growth_potential": "有一定市场需求，可垂直领域变现",
+      "usage": "适合有特定需求的开发者，可以根据自己的场景灵活使用。"
+    },
+    "stars": 336,
+    "forks": 7,
+    "language": "Python"
+  },
+  {
+    "date": "2026-08-26",
+    "id": "2026-08-26-008",
+    "title": "ChenShuo2004 / cs-board",
+    "url": "https://github.com/ChenShuo2004/cs-board",
+    "raw_description": "将参考声音和中文文案自动生成白板动画视频的本地 AI 工具。",
+    "description": "这是一个 AI 相关的开源项目。它利用人工智能技术，帮助用户自动化处理复杂任务，提升工作效率。可以应用于智能对话、内容生成、数据分析等场景。\n\n🎯 使用场景：适合想用 AI 提升效率的开发者，或者想快速搭建智能应用的创业者。",
+    "metaphor": "💡 它就像你的「智能助手」——你告诉它要做什么，它就能理解并帮你完成，就像一个24小时在线的得力帮手。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 1,
+      "track_fit": 1,
+      "growth_potential": 2,
+      "total": 6
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "中等复杂度，需理解架构设计",
+      "logic_moat": "常规实现，属于常见技术方案",
+      "track_fit": "命中 1 个核心赛道：教育",
+      "growth_potential": "处于 AI/Agent 热点赛道，易获得关注",
+      "usage": "适合想用 AI 提升效率的开发者，或者想快速搭建智能应用的创业者。"
+    },
+    "stars": 297,
+    "forks": 58,
+    "language": "Python"
+  },
+  {
+    "date": "2026-08-26",
+    "id": "2026-08-26-009",
+    "title": "bam-bam-2 / solo-skills",
+    "url": "https://github.com/bam-bam-2/solo-skills",
+    "raw_description": "1인 사업가 생산성 키트 — 직원 없이 49개를 자동화했고, 그중 바로 쓸 수 있는 AI 에이전트 스킬 26개(+실행 스크립트)를 공개합니다",
+    "description": "这是一个 AI 相关的开源项目。它利用人工智能技术，帮助用户自动化处理复杂任务，提升工作效率。可以应用于智能对话、内容生成、数据分析等场景。\n\n🎯 使用场景：适合想用 AI 提升效率的开发者，或者想快速搭建智能应用的创业者。",
+    "metaphor": "💡 它就像你的「智能助手」——你告诉它要做什么，它就能理解并帮你完成，就像一个24小时在线的得力帮手。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 1,
+      "track_fit": 0,
+      "growth_potential": 2,
+      "total": 5
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "中等复杂度，需理解架构设计",
+      "logic_moat": "常规实现，属于常见技术方案",
+      "track_fit": "未直接命中宠物/银发/玄学/金融/教育五大变现赛道",
+      "growth_potential": "处于 AI/Agent 热点赛道，易获得关注",
+      "usage": "适合想用 AI 提升效率的开发者，或者想快速搭建智能应用的创业者。"
+    },
+    "stars": 297,
+    "forks": 76,
+    "language": "Python"
+  },
+  {
+    "date": "2026-08-26",
+    "id": "2026-08-26-010",
+    "title": "MiaAI-Lab / DeepSeek-v4-Flash-One-DGX-Spark",
+    "url": "https://github.com/MiaAI-Lab/DeepSeek-v4-Flash-One-DGX-Spark",
+    "raw_description": "DeepSeek v4 Flash EXL3 on one DGX Spark",
+    "description": "这是一个 Python 开源项目。解决特定的开发需求或提供实用功能，可以根据具体场景灵活使用。\n\n🎯 使用场景：适合有特定需求的开发者，可以根据自己的场景灵活使用。",
+    "metaphor": "💡 它就像「万能扳手」——虽然不是最耀眼的工具，但能帮你解决很多实际问题，是开发者的好帮手。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 1,
+      "track_fit": 2,
+      "growth_potential": 1,
+      "total": 6
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "中等复杂度，需理解架构设计",
+      "logic_moat": "常规实现，属于常见技术方案",
+      "track_fit": "命中 2 个核心赛道：银发, 金融",
+      "growth_potential": "有一定市场需求，可垂直领域变现",
+      "usage": "适合有特定需求的开发者，可以根据自己的场景灵活使用。"
+    },
+    "stars": 260,
+    "forks": 29,
+    "language": "Python"
+  },
+  {
+    "date": "2026-08-26",
+    "id": "2026-08-26-011",
+    "title": "alchaincyf / huashu-excel",
+    "url": "https://github.com/alchaincyf/huashu-excel",
+    "raw_description": "数据分析与 Excel 全流程 skill：体检脏表、清洗、对齐需求、分析、对账、交付。让 AI 算出来的数字经得起追问。跨 agent 通用，依赖仅 openpyxl。",
+    "description": "这是一个 AI 相关的开源项目。它利用人工智能技术，帮助用户自动化处理复杂任务，提升工作效率。可以应用于智能对话、内容生成、数据分析等场景。\n\n🎯 使用场景：适合想用 AI 提升效率的开发者，或者想快速搭建智能应用的创业者。",
+    "metaphor": "💡 它就像你的「智能助手」——你告诉它要做什么，它就能理解并帮你完成，就像一个24小时在线的得力帮手。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 1,
+      "track_fit": 0,
+      "growth_potential": 2,
+      "total": 5
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "中等复杂度，需理解架构设计",
+      "logic_moat": "常规实现，属于常见技术方案",
+      "track_fit": "未直接命中宠物/银发/玄学/金融/教育五大变现赛道",
+      "growth_potential": "处于 AI/Agent 热点赛道，易获得关注",
+      "usage": "适合想用 AI 提升效率的开发者，或者想快速搭建智能应用的创业者。"
+    },
+    "stars": 253,
+    "forks": 41,
+    "language": "Python"
+  },
+  {
+    "date": "2026-08-26",
+    "id": "2026-08-26-012",
+    "title": "lxf746 / outlook-auto-register",
+    "url": "https://github.com/lxf746/outlook-auto-register",
+    "raw_description": "Microsoft Outlook Fluent Web API 协议注册工具（纯协议，无浏览器依赖）",
+    "description": "这是一个 Web 开发相关项目。提供网站或 Web 服务开发所需的框架、库或工具，帮助开发者快速搭建互联网应用。\n\n🎯 使用场景：适合想快速搭建网站、API 服务的开发者。",
+    "metaphor": "💡 它就像「乐高积木」——提供标准化的模块和接口，让你像搭积木一样快速搭建自己想要的网站或应用。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 0,
+      "track_fit": 2,
+      "growth_potential": 1,
+      "total": 5
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "中等复杂度，需理解架构设计",
+      "logic_moat": "简单 API 封装或客户端，技术门槛低",
+      "track_fit": "命中 2 个核心赛道：宠物, 教育",
+      "growth_potential": "有一定市场需求，可垂直领域变现",
+      "usage": "适合想快速搭建网站、API 服务的开发者。"
+    },
+    "stars": 244,
+    "forks": 128,
+    "language": "Python"
+  },
+  {
+    "date": "2026-08-26",
+    "id": "2026-08-26-013",
+    "title": "programasweights / claudish",
+    "url": "https://github.com/programasweights/claudish",
+    "raw_description": "Translate between English and Claudish with tiny ProgramAsWeights functions.",
+    "description": "这是一个 Python 开源项目。解决特定的开发需求或提供实用功能，可以根据具体场景灵活使用。\n\n🎯 使用场景：适合有特定需求的开发者，可以根据自己的场景灵活使用。",
+    "metaphor": "💡 它就像「万能扳手」——虽然不是最耀眼的工具，但能帮你解决很多实际问题，是开发者的好帮手。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 1,
+      "track_fit": 1,
+      "growth_potential": 1,
+      "total": 5
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "中等复杂度，需理解架构设计",
+      "logic_moat": "常规实现，属于常见技术方案",
+      "track_fit": "命中 1 个核心赛道：银发",
+      "growth_potential": "有一定市场需求，可垂直领域变现",
+      "usage": "适合有特定需求的开发者，可以根据自己的场景灵活使用。"
+    },
+    "stars": 198,
+    "forks": 17,
+    "language": "Python"
+  },
+  {
+    "date": "2026-08-26",
+    "id": "2026-08-26-014",
+    "title": "lvgalvao / projeto-dados-ia-databricks",
+    "url": "https://github.com/lvgalvao/projeto-dados-ia-databricks",
+    "raw_description": "",
+    "description": "这是一个 Python 开源项目。解决特定的开发需求或提供实用功能，可以根据具体场景灵活使用。\n\n🎯 使用场景：适合有特定需求的开发者，可以根据自己的场景灵活使用。",
+    "metaphor": "💡 它就像「万能扳手」——虽然不是最耀眼的工具，但能帮你解决很多实际问题，是开发者的好帮手。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 1,
+      "track_fit": 1,
+      "growth_potential": 1,
+      "total": 5
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "中等复杂度，需理解架构设计",
+      "logic_moat": "常规实现，属于常见技术方案",
+      "track_fit": "命中 1 个核心赛道：宠物",
+      "growth_potential": "有一定市场需求，可垂直领域变现",
+      "usage": "适合有特定需求的开发者，可以根据自己的场景灵活使用。"
+    },
+    "stars": 197,
+    "forks": 37,
+    "language": "Python"
+  },
+  {
+    "date": "2026-08-26",
+    "id": "2026-08-26-015",
+    "title": "HanyuanWang / LiveStream-Agent-Studio",
+    "url": "https://github.com/HanyuanWang/LiveStream-Agent-Studio",
+    "raw_description": "面向抖音直播电商的 Windows 本地 AI Agent Studio，贯通主播发现、直播洞察、直播复盘与短视频内容编导的统一智能工作流。",
+    "description": "这是一个 AI 相关的开源项目。它利用人工智能技术，帮助用户自动化处理复杂任务，提升工作效率。可以应用于智能对话、内容生成、数据分析等场景。\n\n🎯 使用场景：适合想用 AI 提升效率的开发者，或者想快速搭建智能应用的创业者。",
+    "metaphor": "💡 它就像你的「智能助手」——你告诉它要做什么，它就能理解并帮你完成，就像一个24小时在线的得力帮手。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 1,
+      "track_fit": 1,
+      "growth_potential": 2,
+      "total": 6
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "中等复杂度，需理解架构设计",
+      "logic_moat": "常规实现，属于常见技术方案",
+      "track_fit": "命中 1 个核心赛道：宠物",
+      "growth_potential": "处于 AI/Agent 热点赛道，易获得关注",
+      "usage": "适合想用 AI 提升效率的开发者，或者想快速搭建智能应用的创业者。"
+    },
+    "stars": 176,
+    "forks": 20,
+    "language": "Python"
   }
 ]
