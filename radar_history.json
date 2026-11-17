@@ -96154,5 +96154,410 @@
     "stars": 207,
     "forks": 17,
     "language": "Python"
+  },
+  {
+    "date": "2026-11-17",
+    "id": "2026-11-17-001",
+    "title": "duwqijlk / muse-protocol",
+    "url": "https://github.com/duwqijlk/muse-protocol",
+    "raw_description": "muse.ai 注册与邀请码兑换协议研究（纯 HTTP Python 实现）",
+    "description": "这是一个 AI 相关的开源项目。它利用人工智能技术，帮助用户自动化处理复杂任务，提升工作效率。可以应用于智能对话、内容生成、数据分析等场景。\n\n🎯 使用场景：适合想用 AI 提升效率的开发者，或者想快速搭建智能应用的创业者。",
+    "metaphor": "💡 它就像你的「智能助手」——你告诉它要做什么，它就能理解并帮你完成，就像一个24小时在线的得力帮手。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 1,
+      "track_fit": 0,
+      "growth_potential": 2,
+      "total": 5
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "中等复杂度，需理解架构设计",
+      "logic_moat": "常规实现，属于常见技术方案",
+      "track_fit": "未直接命中宠物/银发/玄学/金融/教育五大变现赛道",
+      "growth_potential": "处于 AI/Agent 热点赛道，易获得关注",
+      "usage": "适合想用 AI 提升效率的开发者，或者想快速搭建智能应用的创业者。"
+    },
+    "stars": 1495,
+    "forks": 591,
+    "language": "Python"
+  },
+  {
+    "date": "2026-11-17",
+    "id": "2026-11-17-002",
+    "title": "Immortal-Protocols / lastbook",
+    "url": "https://github.com/Immortal-Protocols/lastbook",
+    "raw_description": "Offline knowledge library for survival and rebuilding",
+    "description": "这是一个 Python 开源项目。解决特定的开发需求或提供实用功能，可以根据具体场景灵活使用。\n\n🎯 使用场景：适合有特定需求的开发者，可以根据自己的场景灵活使用。",
+    "metaphor": "💡 它就像「万能扳手」——虽然不是最耀眼的工具，但能帮你解决很多实际问题，是开发者的好帮手。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 1,
+      "track_fit": 2,
+      "growth_potential": 0,
+      "total": 5
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "中等复杂度，需理解架构设计",
+      "logic_moat": "常规实现，属于常见技术方案",
+      "track_fit": "命中 2 个核心赛道：宠物, 银发",
+      "growth_potential": "基础设施类工具，传播和变现潜力有限",
+      "usage": "适合有特定需求的开发者，可以根据自己的场景灵活使用。"
+    },
+    "stars": 710,
+    "forks": 80,
+    "language": "Python"
+  },
+  {
+    "date": "2026-11-17",
+    "id": "2026-11-17-003",
+    "title": "haziqahmedqasmi / PeakCut",
+    "url": "https://github.com/haziqahmedqasmi/PeakCut",
+    "raw_description": "AI clipping for long videos and live streams. Self-hosted, bring your own AI key.",
+    "description": "这是一个 AI 相关的开源项目。它利用人工智能技术，帮助用户自动化处理复杂任务，提升工作效率。可以应用于智能对话、内容生成、数据分析等场景。\n\n🎯 使用场景：适合想用 AI 提升效率的开发者，或者想快速搭建智能应用的创业者。",
+    "metaphor": "💡 它就像你的「智能助手」——你告诉它要做什么，它就能理解并帮你完成，就像一个24小时在线的得力帮手。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 1,
+      "track_fit": 1,
+      "growth_potential": 2,
+      "total": 6
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "中等复杂度，需理解架构设计",
+      "logic_moat": "常规实现，属于常见技术方案",
+      "track_fit": "命中 1 个核心赛道：银发",
+      "growth_potential": "处于 AI/Agent 热点赛道，易获得关注",
+      "usage": "适合想用 AI 提升效率的开发者，或者想快速搭建智能应用的创业者。"
+    },
+    "stars": 693,
+    "forks": 239,
+    "language": "Python"
+  },
+  {
+    "date": "2026-11-17",
+    "id": "2026-11-17-004",
+    "title": "n4ze3m / tiny-voca",
+    "url": "https://github.com/n4ze3m/tiny-voca",
+    "raw_description": "A 4.5M-parameter two-voice English text-to-speech model, trained from scratch",
+    "description": "这是一个 AI 相关的开源项目。它利用人工智能技术，帮助用户自动化处理复杂任务，提升工作效率。可以应用于智能对话、内容生成、数据分析等场景。\n\n🎯 使用场景：适合想用 AI 提升效率的开发者，或者想快速搭建智能应用的创业者。",
+    "metaphor": "💡 它就像你的「智能助手」——你告诉它要做什么，它就能理解并帮你完成，就像一个24小时在线的得力帮手。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 1,
+      "track_fit": 0,
+      "growth_potential": 2,
+      "total": 5
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "中等复杂度，需理解架构设计",
+      "logic_moat": "常规实现，属于常见技术方案",
+      "track_fit": "未直接命中宠物/银发/玄学/金融/教育五大变现赛道",
+      "growth_potential": "处于 AI/Agent 热点赛道，易获得关注",
+      "usage": "适合想用 AI 提升效率的开发者，或者想快速搭建智能应用的创业者。"
+    },
+    "stars": 633,
+    "forks": 74,
+    "language": "Python"
+  },
+  {
+    "date": "2026-11-17",
+    "id": "2026-11-17-005",
+    "title": "mit-han-lab / pear",
+    "url": "https://github.com/mit-han-lab/pear",
+    "raw_description": "Training Reasoning Models in Simulation to Natively Use Real Robots",
+    "description": "这是一个 AI 相关的开源项目。它利用人工智能技术，帮助用户自动化处理复杂任务，提升工作效率。可以应用于智能对话、内容生成、数据分析等场景。\n\n🎯 使用场景：适合想用 AI 提升效率的开发者，或者想快速搭建智能应用的创业者。",
+    "metaphor": "💡 它就像你的「智能助手」——你告诉它要做什么，它就能理解并帮你完成，就像一个24小时在线的得力帮手。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 1,
+      "track_fit": 1,
+      "growth_potential": 2,
+      "total": 6
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "中等复杂度，需理解架构设计",
+      "logic_moat": "常规实现，属于常见技术方案",
+      "track_fit": "命中 1 个核心赛道：教育",
+      "growth_potential": "处于 AI/Agent 热点赛道，易获得关注",
+      "usage": "适合想用 AI 提升效率的开发者，或者想快速搭建智能应用的创业者。"
+    },
+    "stars": 536,
+    "forks": 36,
+    "language": "Python"
+  },
+  {
+    "date": "2026-11-17",
+    "id": "2026-11-17-006",
+    "title": "higurashi-ai / Haru",
+    "url": "https://github.com/higurashi-ai/Haru",
+    "raw_description": "Haru: a low-latency, multilingual, full-duplex spoken dialogue model",
+    "description": "这是一个 AI 相关的开源项目。它利用人工智能技术，帮助用户自动化处理复杂任务，提升工作效率。可以应用于智能对话、内容生成、数据分析等场景。\n\n🎯 使用场景：适合想用 AI 提升效率的开发者，或者想快速搭建智能应用的创业者。",
+    "metaphor": "💡 它就像你的「智能助手」——你告诉它要做什么，它就能理解并帮你完成，就像一个24小时在线的得力帮手。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 1,
+      "track_fit": 1,
+      "growth_potential": 1,
+      "total": 5
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "中等复杂度，需理解架构设计",
+      "logic_moat": "常规实现，属于常见技术方案",
+      "track_fit": "命中 1 个核心赛道：银发",
+      "growth_potential": "有一定市场需求，可垂直领域变现",
+      "usage": "适合想用 AI 提升效率的开发者，或者想快速搭建智能应用的创业者。"
+    },
+    "stars": 533,
+    "forks": 39,
+    "language": "Python"
+  },
+  {
+    "date": "2026-11-17",
+    "id": "2026-11-17-007",
+    "title": "joshpuckett / allo",
+    "url": "https://github.com/joshpuckett/allo",
+    "raw_description": "Allo is your friendly neighborhood typeface, free and open source",
+    "description": "这是一个 Python 开源项目。解决特定的开发需求或提供实用功能，可以根据具体场景灵活使用。\n\n🎯 使用场景：适合有特定需求的开发者，可以根据自己的场景灵活使用。",
+    "metaphor": "💡 它就像「万能扳手」——虽然不是最耀眼的工具，但能帮你解决很多实际问题，是开发者的好帮手。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 1,
+      "track_fit": 1,
+      "growth_potential": 1,
+      "total": 5
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "中等复杂度，需理解架构设计",
+      "logic_moat": "常规实现，属于常见技术方案",
+      "track_fit": "命中 1 个核心赛道：银发",
+      "growth_potential": "有一定市场需求，可垂直领域变现",
+      "usage": "适合有特定需求的开发者，可以根据自己的场景灵活使用。"
+    },
+    "stars": 427,
+    "forks": 7,
+    "language": "Python"
+  },
+  {
+    "date": "2026-11-17",
+    "id": "2026-11-17-008",
+    "title": "kociden / sakurai-skill",
+    "url": "https://github.com/kociden/sakurai-skill",
+    "raw_description": "桜井政博のゲーム作るには 全本編257本の字幕から作ったゲーム制作の Agent Skill（非公式・日本語）",
+    "description": "这是一个 AI 相关的开源项目。它利用人工智能技术，帮助用户自动化处理复杂任务，提升工作效率。可以应用于智能对话、内容生成、数据分析等场景。\n\n🎯 使用场景：适合想用 AI 提升效率的开发者，或者想快速搭建智能应用的创业者。",
+    "metaphor": "💡 它就像你的「智能助手」——你告诉它要做什么，它就能理解并帮你完成，就像一个24小时在线的得力帮手。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 1,
+      "track_fit": 0,
+      "growth_potential": 2,
+      "total": 5
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "中等复杂度，需理解架构设计",
+      "logic_moat": "常规实现，属于常见技术方案",
+      "track_fit": "未直接命中宠物/银发/玄学/金融/教育五大变现赛道",
+      "growth_potential": "处于 AI/Agent 热点赛道，易获得关注",
+      "usage": "适合想用 AI 提升效率的开发者，或者想快速搭建智能应用的创业者。"
+    },
+    "stars": 386,
+    "forks": 27,
+    "language": "Python"
+  },
+  {
+    "date": "2026-11-17",
+    "id": "2026-11-17-009",
+    "title": "AFangTeam / PrintLab",
+    "url": "https://github.com/AFangTeam/PrintLab",
+    "raw_description": "A Mac / Windows 3D-printing workbench for Codex: ideas, CAD, slicing, materials and print records. Noncommercial; attribution required.",
+    "description": "这是一个 Python 开源项目。解决特定的开发需求或提供实用功能，可以根据具体场景灵活使用。\n\n🎯 使用场景：适合有特定需求的开发者，可以根据自己的场景灵活使用。",
+    "metaphor": "💡 它就像「万能扳手」——虽然不是最耀眼的工具，但能帮你解决很多实际问题，是开发者的好帮手。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 1,
+      "track_fit": 1,
+      "growth_potential": 1,
+      "total": 5
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "中等复杂度，需理解架构设计",
+      "logic_moat": "常规实现，属于常见技术方案",
+      "track_fit": "命中 1 个核心赛道：银发",
+      "growth_potential": "有一定市场需求，可垂直领域变现",
+      "usage": "适合有特定需求的开发者，可以根据自己的场景灵活使用。"
+    },
+    "stars": 365,
+    "forks": 54,
+    "language": "Python"
+  },
+  {
+    "date": "2026-11-17",
+    "id": "2026-11-17-010",
+    "title": "AgenticOrgLab / ExecOrchestra",
+    "url": "https://github.com/AgenticOrgLab/ExecOrchestra",
+    "raw_description": "Heterogeneous Resource Routing and Orchestration",
+    "description": "这是一个 Python 开源项目。解决特定的开发需求或提供实用功能，可以根据具体场景灵活使用。\n\n🎯 使用场景：适合有特定需求的开发者，可以根据自己的场景灵活使用。",
+    "metaphor": "💡 它就像「万能扳手」——虽然不是最耀眼的工具，但能帮你解决很多实际问题，是开发者的好帮手。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 2,
+      "track_fit": 1,
+      "growth_potential": 1,
+      "total": 6
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "中等复杂度，需理解架构设计",
+      "logic_moat": "有特定的业务逻辑设计，需理解领域知识",
+      "track_fit": "命中 1 个核心赛道：宠物",
+      "growth_potential": "有一定市场需求，可垂直领域变现",
+      "usage": "适合有特定需求的开发者，可以根据自己的场景灵活使用。"
+    },
+    "stars": 320,
+    "forks": 6,
+    "language": "Python"
+  },
+  {
+    "date": "2026-11-17",
+    "id": "2026-11-17-011",
+    "title": "sybil-solutions / inference-optimisation-skill",
+    "url": "https://github.com/sybil-solutions/inference-optimisation-skill",
+    "raw_description": "Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization",
+    "description": "这是一个 AI 相关的开源项目。它利用人工智能技术，帮助用户自动化处理复杂任务，提升工作效率。可以应用于智能对话、内容生成、数据分析等场景。\n\n🎯 使用场景：适合想用 AI 提升效率的开发者，或者想快速搭建智能应用的创业者。",
+    "metaphor": "💡 它就像你的「智能助手」——你告诉它要做什么，它就能理解并帮你完成，就像一个24小时在线的得力帮手。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 1,
+      "track_fit": 0,
+      "growth_potential": 2,
+      "total": 5
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "中等复杂度，需理解架构设计",
+      "logic_moat": "常规实现，属于常见技术方案",
+      "track_fit": "未直接命中宠物/银发/玄学/金融/教育五大变现赛道",
+      "growth_potential": "处于 AI/Agent 热点赛道，易获得关注",
+      "usage": "适合想用 AI 提升效率的开发者，或者想快速搭建智能应用的创业者。"
+    },
+    "stars": 291,
+    "forks": 29,
+    "language": "Python"
+  },
+  {
+    "date": "2026-11-17",
+    "id": "2026-11-17-012",
+    "title": "tigerogijzooav / Hyperliquid-Trade-Bot",
+    "url": "https://github.com/tigerogijzooav/Hyperliquid-Trade-Bot",
+    "raw_description": "Independently analyze ROI, win rate, and PnL using the public Hyperliquid API, detect martingale/grid recovery strategies, and assess maximum drawdown and risk-adjusted returns. Read-only terminal checker — no trading, no API keys. Unofficial community project, not affiliated with Hyperliquid.",
+    "description": "这是一个命令行工具。通过终端命令就能快速使用，适合程序员和开发者提高工作效率，通常体积小巧但功能强大。\n\n🎯 使用场景：适合程序员和开发者，喜欢用命令行提高效率的人。",
+    "metaphor": "💡 它就像「瑞士军刀」——小巧便携，但集成了多种实用功能，是程序员工具箱里的必备利器。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 0,
+      "track_fit": 2,
+      "growth_potential": 2,
+      "total": 6
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "中等复杂度，需理解架构设计",
+      "logic_moat": "简单 API 封装或客户端，技术门槛低",
+      "track_fit": "命中 2 个核心赛道：宠物, 金融",
+      "growth_potential": "具备直接变现场景或自动化赚钱能力",
+      "usage": "适合程序员和开发者，喜欢用命令行提高效率的人。"
+    },
+    "stars": 289,
+    "forks": 68,
+    "language": "Python"
+  },
+  {
+    "date": "2026-11-17",
+    "id": "2026-11-17-013",
+    "title": "huggingface / pybot",
+    "url": "https://github.com/huggingface/pybot",
+    "raw_description": "PyBot: a chatbot written in pure Python by a swarm of agents. No weights, no training, just rules.",
+    "description": "这是一个 AI 相关的开源项目。它利用人工智能技术，帮助用户自动化处理复杂任务，提升工作效率。可以应用于智能对话、内容生成、数据分析等场景。\n\n🎯 使用场景：适合想用 AI 提升效率的开发者，或者想快速搭建智能应用的创业者。",
+    "metaphor": "💡 它就像你的「智能助手」——你告诉它要做什么，它就能理解并帮你完成，就像一个24小时在线的得力帮手。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 1,
+      "track_fit": 0,
+      "growth_potential": 2,
+      "total": 5
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "中等复杂度，需理解架构设计",
+      "logic_moat": "常规实现，属于常见技术方案",
+      "track_fit": "未直接命中宠物/银发/玄学/金融/教育五大变现赛道",
+      "growth_potential": "处于 AI/Agent 热点赛道，易获得关注",
+      "usage": "适合想用 AI 提升效率的开发者，或者想快速搭建智能应用的创业者。"
+    },
+    "stars": 235,
+    "forks": 21,
+    "language": "Python"
+  },
+  {
+    "date": "2026-11-17",
+    "id": "2026-11-17-014",
+    "title": "Vaibhaav-Tiwari / deepseek-v3-jax",
+    "url": "https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax",
+    "raw_description": "DeepSeek V3 (MLA, DeepSeekMoE, aux-loss-free balancing, MTP) in 190 lines of pure JAX, trained on a MacBook Air. Write-up: vaibhaav.in/writing/deepseek-v3-jax",
+    "description": "这是一个 AI 相关的开源项目。它利用人工智能技术，帮助用户自动化处理复杂任务，提升工作效率。可以应用于智能对话、内容生成、数据分析等场景。\n\n🎯 使用场景：适合想用 AI 提升效率的开发者，或者想快速搭建智能应用的创业者。",
+    "metaphor": "💡 它就像你的「智能助手」——你告诉它要做什么，它就能理解并帮你完成，就像一个24小时在线的得力帮手。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 1,
+      "track_fit": 0,
+      "growth_potential": 2,
+      "total": 5
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "中等复杂度，需理解架构设计",
+      "logic_moat": "常规实现，属于常见技术方案",
+      "track_fit": "未直接命中宠物/银发/玄学/金融/教育五大变现赛道",
+      "growth_potential": "处于 AI/Agent 热点赛道，易获得关注",
+      "usage": "适合想用 AI 提升效率的开发者，或者想快速搭建智能应用的创业者。"
+    },
+    "stars": 234,
+    "forks": 20,
+    "language": "Python"
+  },
+  {
+    "date": "2026-11-17",
+    "id": "2026-11-17-015",
+    "title": "JuneYaooo / rea-toon",
+    "url": "https://github.com/JuneYaooo/rea-toon",
+    "raw_description": "AI 拆解学习短剧：为什么火、剧本怎么写、每一镜怎么拍 | Break down any short drama with AI: why it works, the script, every shot",
+    "description": "这是一个 AI 相关的开源项目。它利用人工智能技术，帮助用户自动化处理复杂任务，提升工作效率。可以应用于智能对话、内容生成、数据分析等场景。\n\n🎯 使用场景：适合想用 AI 提升效率的开发者，或者想快速搭建智能应用的创业者。",
+    "metaphor": "💡 它就像你的「智能助手」——你告诉它要做什么，它就能理解并帮你完成，就像一个24小时在线的得力帮手。",
+    "scores": {
+      "vibecoding_ease": 3,
+      "logic_moat": 1,
+      "track_fit": 1,
+      "growth_potential": 2,
+      "total": 7
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "纯提示词/简单脚本，一日内可复刻 MVP",
+      "logic_moat": "常规实现，属于常见技术方案",
+      "track_fit": "命中 1 个核心赛道：教育",
+      "growth_potential": "处于 AI/Agent 热点赛道，易获得关注",
+      "usage": "适合想用 AI 提升效率的开发者，或者想快速搭建智能应用的创业者。"
+    },
+    "stars": 230,
+    "forks": 40,
+    "language": "Python"
   }
 ]
